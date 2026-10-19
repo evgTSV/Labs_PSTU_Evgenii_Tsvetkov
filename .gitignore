@@ -1,6 +1,5 @@
 build/
 Build/
-out/
 bin/
 obj/
 cmake-build-*/
