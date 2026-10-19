@@ -1,0 +1,16 @@
+> .\bin\lab1_2.exe
+Enter the two integers m and n: m <space> n
+5 3
+Accepted: m = 5  n = 3
+1) --m - ++n = 0  (now m = 4, n = 4)
+2) m * n < n++ = false  (now m = 5, n = 4)
+3) n-- > m++ = false  (now m = 6, n = 2)
+Lab 1, Task 2: Completed successfully!
+> .\bin\lab1_2.exe
+Enter the two integers m and n: m <space> n
+-2 4
+Accepted: m = -2  n = 4
+1) --m - ++n = -8  (now m = -3, n = 5)
+2) m * n < n++ = true  (now m = -2, n = 5)
+3) n-- > m++ = true  (now m = -1, n = 3)
+Lab 1, Task 2: Completed successfully!
