@@ -1,0 +1,8 @@
+Enter ring length (1..100): 12
+Enter K (1..12): 4
+Ring from K-th to (K+1)-th, right to left:
+4 71 86 76 29 61 2 91 9 20 14 58 
+Sorted in descending order (a[1]..a[n]):
+91 86 76 71 61 58 29 20 14 9 4 2 
+Odd elements removed, K = 4, ring from K-th to (K+1)-th:
+20 58 76 86 2 4 14 
