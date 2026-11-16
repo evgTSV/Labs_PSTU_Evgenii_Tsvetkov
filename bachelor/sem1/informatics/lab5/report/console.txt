@@ -1,0 +1,15 @@
+Enter n and m (1..10): 4 5
+Source matrix:
+  25  14  11  20  26
+  24  29  15  12  10
+  27  19  13  28  22
+  17  16  18  23  21
+One-dimensional array (rows, then columns):
+27 19 13 28 22 25 14 11 20 26 24 29 15 12 10 17 16 18 23 21 
+11 15 13 18 26 10 22 21 14 29 19 16 25 24 27 17 20 12 28 23 
+Restored matrix:
+  25  14  11  20  26
+  24  29  15  12  10
+  27  19  13  28  22
+  17  16  18  23  21
+Restored matrix matches the source

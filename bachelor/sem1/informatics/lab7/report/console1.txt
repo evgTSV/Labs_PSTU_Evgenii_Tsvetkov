@@ -1,0 +1,16 @@
+Enter rows and columns (1..10): 5 4
+Enter the matrix:
+1 2 3 4
+5 6 7 8
+9 10 11 12
+13 14 15 16
+17 18 19 20
+Even rows removed:
+   1   2   3   4
+   9  10  11  12
+  17  18  19  20
+Enter array length (1..100): 10
+Enter the array:
+3 0 5 7 0 4 0 8 1 9
+Elements between zeros removed:
+3 0 0 0 8 1 9 

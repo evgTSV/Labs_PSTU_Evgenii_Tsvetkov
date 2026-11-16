@@ -1,0 +1,14 @@
+Enter a sentence (capital Russian letters and punctuation):
+Hello, world.
+Wrong symbols, enter again:
+ПРОГРАММИРОВАНИЕ НА ЯЗЫКЕ СИ - ЭТО ИНТЕРЕСНО!
+Function: 1 - sine, 2 - square root, 3 - exponent: 1
+    РАММ                  СИ_-
+   Г    И                _    _
+  О      Р              Е      Э
+ Р        О            К        Т
+П          В          Ы          О          !
+            А        З            _        О
+             Н      Я              И      Н
+              И    _                Н    С
+               Е_НА                  ТЕРЕ

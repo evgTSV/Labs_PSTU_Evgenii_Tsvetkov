@@ -1,0 +1,12 @@
+Enter a sentence (capital Russian letters and punctuation):
+ПРОГРАММИРОВАНИЕ НА ЯЗЫКЕ СИ - ЭТО ИНТЕРЕСНО!
+Function: 1 - sine, 2 - square root, 3 - exponent: 3
+                                            !
+                                          НО
+                                       РЕС
+                                     ТЕ
+                                 О_ИН
+                             -_ЭТ
+                       КЕ_СИ_
+            АНИЕ_НА_ЯЗЫ
+ПРОГРАММИРОВ
