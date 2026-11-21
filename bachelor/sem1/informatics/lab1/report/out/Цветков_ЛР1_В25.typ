@@ -122,25 +122,25 @@ table.header([#"Тип"], [#"Размер, бит"], [#"Мантисса, бит
 #par[#"Блок-схемы алгоритмов выполнены по ГОСТ 19.701-90 "#"[2]"#". Для задания 1 схема функции "#emph("main")#" приведена на рисунке "#"1"#", схема функции "#emph("calculate")#" – на рисунке "#"2"#". Для задания 2 схема функции "#emph("main")#" приведена на рисунке "#"3"#", схемы функций "#emph("first")#", "#emph("second")#" и "#emph("third")#" – на рисунке "#"4"#"."]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/t1_main.png", width: 50%))
+#align(center, image("img/t1_main.png", width: 49.92%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 1 – "#"Блок-схема функции main (задание 1)"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/t1_calculate.png", width: 45%))
+#align(center, image("img/t1_calculate.png", width: 56.95%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 2 – "#"Блок-схема функции calculate (задание 1)"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/t2_main.png", width: 50%))
+#align(center, image("img/t2_main.png", width: 56.95%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 3 – "#"Блок-схема функции main (задание 2)"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/t2_funcs.png", width: 100%))
+#align(center, image("img/t2_funcs.png", width: 51.20%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 4 – "#"Блок-схемы функций first, second и third (задание 2)"])
 ]

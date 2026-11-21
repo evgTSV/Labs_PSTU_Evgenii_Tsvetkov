@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="91.028mm" height="115mm" viewBox="0 0 91.028 115">
+<title>readFile, лист 1 из 2</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="45.528" y="3" width="20" height="10" rx="5" ry="5"/>
+<polyline points="55.528,13 55.528,16.45"/>
+<polygon points="55.528,19 54.578,16 56.478,16" fill="#000" stroke="none"/>
+<rect x="23.028" y="19" width="65" height="15"/>
+<polyline points="55.528,34 55.528,37.45"/>
+<polygon points="55.528,40 54.578,37 56.478,37" fill="#000" stroke="none"/>
+<polygon points="55.528,40 70.528,45 55.528,50 40.528,45"/>
+<rect x="3" y="56" width="65" height="15" rx="7.5" ry="7.5"/>
+<polyline points="40.528,45 35.5,45 35.5,53.45"/>
+<polygon points="35.5,56 34.55,53 36.45,53" fill="#000" stroke="none"/>
+<polyline points="70.528,45 75.557,45 75.557,77 55.528,77"/>
+<polyline points="55.528,77 55.528,80.45"/>
+<polygon points="55.528,83 54.578,80 56.478,80" fill="#000" stroke="none"/>
+<rect x="28.028" y="83" width="55" height="15"/>
+<polyline points="55.528,98 55.528,101.45"/>
+<polygon points="55.528,104 54.578,101 56.478,101" fill="#000" stroke="none"/>
+<circle cx="55.528" cy="108" r="4"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="55.528" y="9.339" text-anchor="middle">Начало</text>
+<text x="53.728" y="17.339" text-anchor="end">{</text>
+<text x="55.528" y="25.506" text-anchor="middle">File file(std::fopen(DATA_FILE,</text>
+<text x="55.528" y="30.172" text-anchor="middle">&quot;rb&quot;), &amp;std::fclose);</text>
+<text x="55.528" y="46.339" text-anchor="middle">if (!file)</text>
+<text x="35.5" y="62.506" text-anchor="middle">throw std::runtime_error(&quot;Cannot</text>
+<text x="35.5" y="67.172" text-anchor="middle">open students.dat for reading.&quot;);</text>
+<text x="39.028" y="43.539" text-anchor="end">1</text>
+<text x="72.028" y="43.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="55.528" y="89.506" text-anchor="middle">std::vector&lt;Student&gt; students;</text>
+<text x="55.528" y="94.172" text-anchor="middle">Student student;</text>
+<text x="55.528" y="109.339" text-anchor="middle">А</text>
+</g>
+</svg>

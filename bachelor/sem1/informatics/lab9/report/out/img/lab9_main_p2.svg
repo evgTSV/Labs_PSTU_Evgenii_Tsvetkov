@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="151.057mm" height="94mm" viewBox="0 0 151.057 94">
+<title>main, лист 2 из 2</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="35.528" y="17" width="65" height="10"/>
+<line x1="37.328" y1="17" x2="37.328" y2="27"/>
+<line x1="98.728" y1="17" x2="98.728" y2="27"/>
+<polyline points="68.028,27 68.028,30.45"/>
+<polygon points="68.028,33 67.078,30 68.978,30" fill="#000" stroke="none"/>
+<polygon points="68.028,33 105.528,38 68.028,43 30.528,38"/>
+<polygon points="5.7,49 48,49 45.3,64 3,64"/>
+<polygon points="75.757,49 148.057,49 145.357,69 73.057,69"/>
+<polyline points="30.528,38 25.5,38 25.5,46.45"/>
+<polygon points="25.5,49 24.55,46 26.45,46" fill="#000" stroke="none"/>
+<polyline points="25.5,64 25.5,75 68.028,75"/>
+<polyline points="105.528,38 110.557,38 110.557,46.45"/>
+<polygon points="110.557,49 109.607,46 111.507,46" fill="#000" stroke="none"/>
+<polyline points="110.557,69 110.557,75 68.028,75"/>
+<polyline points="68.028,75 68.028,78.45"/>
+<polygon points="68.028,81 67.078,78 68.978,78" fill="#000" stroke="none"/>
+<rect x="58.028" y="81" width="20" height="10" rx="5" ry="5"/>
+<circle cx="68.028" cy="7" r="4"/>
+<polyline points="68.028,11 68.028,14.45"/>
+<polygon points="68.028,17 67.078,14 68.978,14" fill="#000" stroke="none"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="68.028" y="23.339" text-anchor="middle">const auto best = findMostDigits();</text>
+<text x="68.028" y="39.339" text-anchor="middle">if (best.number == <tspan font-family='Consolas'>0</tspan>)</text>
+<text x="25.5" y="55.506" text-anchor="middle">std::cout &lt;&lt; &quot;\nThere</text>
+<text x="25.5" y="60.172" text-anchor="middle">are no words in F2.\n&quot;;</text>
+<text x="110.557" y="55.673" text-anchor="middle">std::cout &lt;&lt; &quot;\nWord number: &quot; &lt;&lt;</text>
+<text x="110.557" y="60.339" text-anchor="middle">best.number &lt;&lt; &quot; (&quot; &lt;&lt; best.word &lt;&lt; &quot;,</text>
+<text x="110.557" y="65.004" text-anchor="middle">digits: &quot; &lt;&lt; best.digits &lt;&lt; &quot;)\n&quot;;</text>
+<text x="29.028" y="36.539" text-anchor="end">1</text>
+<text x="107.028" y="36.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="66.228" y="79.339" text-anchor="end">}</text>
+<text x="68.028" y="87.339" text-anchor="middle">Конец</text>
+<text x="68.028" y="8.339" text-anchor="middle">А</text>
+</g>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="81mm" height="74mm" viewBox="0 0 81 74">
+<title>findSurname</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="30.5" y="3" width="20" height="10" rx="5" ry="5"/>
+<polyline points="40.5,13 40.5,16.45"/>
+<polygon points="40.5,19 39.55,16 41.45,16" fill="#000" stroke="none"/>
+<rect x="3" y="19" width="75" height="15"/>
+<polyline points="40.5,34 40.5,37.45"/>
+<polygon points="40.5,40 39.55,37 41.45,37" fill="#000" stroke="none"/>
+<rect x="8" y="40" width="65" height="15"/>
+<polyline points="40.5,55 40.5,58.45"/>
+<polygon points="40.5,61 39.55,58 41.45,58" fill="#000" stroke="none"/>
+<rect x="30.5" y="61" width="20" height="10" rx="5" ry="5"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="40.5" y="9.339" text-anchor="middle">Начало</text>
+<text x="38.7" y="17.339" text-anchor="end">{</text>
+<text x="40.5" y="25.506" text-anchor="middle">const auto matches = [&amp;](const Student&amp; s)</text>
+<text x="40.5" y="30.172" text-anchor="middle">{ return surname == s.surname; };</text>
+<text x="40.5" y="46.506" text-anchor="middle">return std::find_if(students.begin(),</text>
+<text x="40.5" y="51.172" text-anchor="middle">students.end(), matches);</text>
+<text x="38.7" y="59.339" text-anchor="end">}</text>
+<text x="40.5" y="67.339" text-anchor="middle">Конец</text>
+</g>
+</svg>

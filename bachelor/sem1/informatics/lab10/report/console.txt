@@ -1,0 +1,22 @@
+Number of strings: 4
+Enter 4 strings:
+First line
+Second line
+Third line
+Fourth line
+
+Original array:
+1. First line
+2. Second line
+3. Third line
+4. Fourth line
+
+Insertion position (1..5): 3
+New string: Inserted line
+
+Result array:
+1. First line
+2. Second line
+3. Inserted line
+4. Third line
+5. Fourth line

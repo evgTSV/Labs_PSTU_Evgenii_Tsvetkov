@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="103.557mm" height="210mm" viewBox="0 0 103.557 210">
+<title>validDate, лист 1 из 2</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="48.028" y="3" width="20" height="10" rx="5" ry="5"/>
+<polyline points="58.028,13 58.028,16.45"/>
+<polygon points="58.028,19 57.078,16 58.978,16" fill="#000" stroke="none"/>
+<polygon points="58.028,19 95.528,59 58.028,99 20.528,59"/>
+<rect x="3" y="105" width="25" height="10" rx="5" ry="5"/>
+<polyline points="20.528,59 15.5,59 15.5,102.45"/>
+<polygon points="15.5,105 14.55,102 16.45,102" fill="#000" stroke="none"/>
+<polyline points="95.528,59 100.557,59 100.557,121 58.028,121"/>
+<polyline points="58.028,121 58.028,124.45"/>
+<polygon points="58.028,127 57.078,124 58.978,124" fill="#000" stroke="none"/>
+<rect x="40.528" y="127" width="35" height="40"/>
+<polyline points="58.028,167 58.028,170.45"/>
+<polygon points="58.028,173 57.078,170 58.978,170" fill="#000" stroke="none"/>
+<rect x="40.528" y="173" width="35" height="20"/>
+<polyline points="58.028,193 58.028,196.45"/>
+<polygon points="58.028,199 57.078,196 58.978,196" fill="#000" stroke="none"/>
+<circle cx="58.028" cy="203" r="4"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="58.028" y="9.339" text-anchor="middle">Начало</text>
+<text x="56.228" y="17.339" text-anchor="end">{</text>
+<text x="58.028" y="44.01" text-anchor="middle">if (date.size() != 1<tspan font-family='Consolas'>0</tspan> ||</text>
+<text x="58.028" y="48.675" text-anchor="middle">date[4] != '-' || date[7]</text>
+<text x="58.028" y="53.341" text-anchor="middle">!= '-' ||</text>
+<text x="58.028" y="58.006" text-anchor="middle">date.find_first_not_of(</text>
+<text x="58.028" y="62.672" text-anchor="middle">&quot;<tspan font-family='Consolas'>0</tspan>123456789-&quot;) !=</text>
+<text x="58.028" y="67.337" text-anchor="middle">std::string::npos ||</text>
+<text x="58.028" y="72.003" text-anchor="middle">std::count(date.begin(),</text>
+<text x="58.028" y="76.668" text-anchor="middle">date.end(), '-') != 2)</text>
+<text x="15.5" y="111.339" text-anchor="middle">return false;</text>
+<text x="19.028" y="57.539" text-anchor="end">1</text>
+<text x="97.028" y="57.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="58.028" y="132.01" text-anchor="middle">using namespace</text>
+<text x="58.028" y="136.675" text-anchor="middle">std::chrono;</text>
+<text x="58.028" y="141.341" text-anchor="middle">const int y =</text>
+<text x="58.028" y="146.006" text-anchor="middle">std::stoi(</text>
+<text x="58.028" y="150.672" text-anchor="middle">date.substr(<tspan font-family='Consolas'>0</tspan>, 4));</text>
+<text x="58.028" y="155.337" text-anchor="middle">const unsigned m =</text>
+<text x="58.028" y="160.003" text-anchor="middle">std::stoi(</text>
+<text x="58.028" y="164.668" text-anchor="middle">date.substr(5, 2));</text>
+<text x="58.028" y="179.673" text-anchor="middle">const unsigned d =</text>
+<text x="58.028" y="184.339" text-anchor="middle">std::stoi(</text>
+<text x="58.028" y="189.004" text-anchor="middle">date.substr(8, 2));</text>
+<text x="58.028" y="204.339" text-anchor="middle">А</text>
+</g>
+</svg>

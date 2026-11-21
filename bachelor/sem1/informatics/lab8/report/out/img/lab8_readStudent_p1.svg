@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="143.557mm" height="205mm" viewBox="0 0 143.557 205">
+<title>readStudent, лист 1 из 2</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="83.028" y="3" width="20" height="10" rx="5" ry="5"/>
+<polyline points="93.028,13 93.028,16.45"/>
+<polygon points="93.028,19 92.078,16 93.978,16" fill="#000" stroke="none"/>
+<rect x="75.528" y="19" width="35" height="10"/>
+<polyline points="93.028,29 93.028,32.45"/>
+<polygon points="93.028,35 92.078,32 93.978,32" fill="#000" stroke="none"/>
+<rect x="65.528" y="35" width="55" height="15"/>
+<line x1="67.328" y1="35" x2="67.328" y2="50"/>
+<line x1="118.728" y1="35" x2="118.728" y2="50"/>
+<polyline points="93.028,50 93.028,53.45"/>
+<polygon points="93.028,56 92.078,53 93.978,53" fill="#000" stroke="none"/>
+<rect x="55.528" y="56" width="75" height="10"/>
+<line x1="57.328" y1="56" x2="57.328" y2="66"/>
+<line x1="128.728" y1="56" x2="128.728" y2="66"/>
+<polyline points="93.028,66 93.028,69.45"/>
+<polygon points="93.028,72 92.078,69 93.978,69" fill="#000" stroke="none"/>
+<rect x="50.528" y="72" width="85" height="10"/>
+<line x1="52.328" y1="72" x2="52.328" y2="82"/>
+<line x1="133.728" y1="72" x2="133.728" y2="82"/>
+<polyline points="93.028,82 93.028,85.45"/>
+<polygon points="93.028,88 92.078,85 93.978,85" fill="#000" stroke="none"/>
+<rect x="60.528" y="88" width="65" height="15"/>
+<line x1="62.328" y1="88" x2="62.328" y2="103"/>
+<line x1="123.728" y1="88" x2="123.728" y2="103"/>
+<polyline points="93.028,103 93.028,106.45"/>
+<polygon points="93.028,109 92.078,106 93.978,106" fill="#000" stroke="none"/>
+<polygon points="93.028,109 135.528,116.5 93.028,124 50.528,116.5"/>
+<rect x="3" y="130" width="85" height="10" rx="5" ry="5"/>
+<polyline points="50.528,116.5 45.5,116.5 45.5,127.45"/>
+<polygon points="45.5,130 44.55,127 46.45,127" fill="#000" stroke="none"/>
+<polyline points="135.528,116.5 140.557,116.5 140.557,146 93.028,146"/>
+<polyline points="93.028,146 93.028,149.45"/>
+<polygon points="93.028,152 92.078,149 93.978,149" fill="#000" stroke="none"/>
+<rect x="65.528" y="152" width="55" height="15"/>
+<line x1="67.328" y1="152" x2="67.328" y2="167"/>
+<line x1="118.728" y1="152" x2="118.728" y2="167"/>
+<polyline points="93.028,167 93.028,170.45"/>
+<polygon points="93.028,173 92.078,170 93.978,170" fill="#000" stroke="none"/>
+<rect x="65.528" y="173" width="55" height="15"/>
+<line x1="67.328" y1="173" x2="67.328" y2="188"/>
+<line x1="118.728" y1="173" x2="118.728" y2="188"/>
+<polyline points="93.028,188 93.028,191.45"/>
+<polygon points="93.028,194 92.078,191 93.978,191" fill="#000" stroke="none"/>
+<circle cx="93.028" cy="198" r="4"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="93.028" y="9.339" text-anchor="middle">Начало</text>
+<text x="91.228" y="17.339" text-anchor="end">{</text>
+<text x="93.028" y="25.339" text-anchor="middle">Student student{};</text>
+<text x="93.028" y="41.506" text-anchor="middle">readField(student.surname, &quot;</text>
+<text x="93.028" y="46.172" text-anchor="middle">Surname: &quot;);</text>
+<text x="93.028" y="62.339" text-anchor="middle">readField(student.name, &quot; Name: &quot;);</text>
+<text x="93.028" y="78.339" text-anchor="middle">readField(student.patronymic, &quot; Patronymic: &quot;);</text>
+<text x="93.028" y="94.506" text-anchor="middle">readField(student.birthDate, &quot; Birth</text>
+<text x="93.028" y="99.172" text-anchor="middle">date (YYYY-MM-DD): &quot;);</text>
+<text x="93.028" y="117.839" text-anchor="middle">if (!validDate(student.birthDate))</text>
+<text x="45.5" y="136.339" text-anchor="middle">throw std::runtime_error(&quot;Invalid birth date.&quot;);</text>
+<text x="49.028" y="115.039" text-anchor="end">1</text>
+<text x="137.028" y="115.039" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="93.028" y="158.506" text-anchor="middle">readField(student.address, &quot;</text>
+<text x="93.028" y="163.172" text-anchor="middle">Home address: &quot;);</text>
+<text x="93.028" y="179.506" text-anchor="middle">std::istringstream</text>
+<text x="93.028" y="184.172" text-anchor="middle">rating(readLine(&quot; Rating: &quot;));</text>
+<text x="93.028" y="199.339" text-anchor="middle">А</text>
+</g>
+</svg>

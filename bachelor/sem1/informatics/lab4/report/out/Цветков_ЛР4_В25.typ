@@ -118,37 +118,37 @@
 #par[#"Блок-схемы алгоритмов, выполненные по ГОСТ 19.701-90 "#"[2]"#", приведены ниже. Схема функции "#emph("main")#" не помещается на одном листе, поэтому разделена на три листа: рисунок "#"1"#", рисунок "#"2"#" и рисунок "#"3"#"; места разрыва обозначены соединителями «А» и «Б». Функция "#emph("printRing")#" показана на рисунке "#"4"#", функция "#emph("sortDesc")#" – на рисунке "#"5"#", функция "#emph("removeOdd")#" – на рисунке "#"6"#"."]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab4_main_p1.png", width: 85%))
+#align(center, image("img/lab4_main_p1.png", width: 36.80%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 1 – "#"Блок-схема алгоритма функции main (лист 1 из 3)"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab4_main_p2.png", width: 85%))
+#align(center, image("img/lab4_main_p2.png", width: 47.53%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 2 – "#"Блок-схема алгоритма функции main (лист 2 из 3)"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab4_main_p3.png", width: 85%))
+#align(center, image("img/lab4_main_p3.png", width: 98.79%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 3 – "#"Блок-схема алгоритма функции main (лист 3 из 3)"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab4_printRing.png", width: 52%))
+#align(center, image("img/lab4_printRing.png", width: 55.23%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 4 – "#"Блок-схема алгоритма функции printRing"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab4_sortDesc.png", width: 49%))
+#align(center, image("img/lab4_sortDesc.png", width: 82.29%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 5 – "#"Блок-схема алгоритма функции sortDesc"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab4_removeOdd.png", width: 43%))
+#align(center, image("img/lab4_removeOdd.png", width: 72.80%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 6 – "#"Блок-схема алгоритма функции removeOdd"])
 ]

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="103.528mm" height="148mm" viewBox="0 0 103.528 148">
+<title>printFile</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="53.028" y="3" width="20" height="10" rx="5" ry="5"/>
+<polyline points="63.028,13 63.028,16.45"/>
+<polygon points="63.028,19 62.078,16 63.978,16" fill="#000" stroke="none"/>
+<rect x="30.528" y="19" width="65" height="10"/>
+<line x1="32.328" y1="19" x2="32.328" y2="29"/>
+<line x1="93.728" y1="19" x2="93.728" y2="29"/>
+<polyline points="63.028,29 63.028,32.45"/>
+<polygon points="63.028,35 62.078,32 63.978,32" fill="#000" stroke="none"/>
+<polygon points="48.228,35 80.528,35 77.828,50 45.528,50"/>
+<polyline points="63.028,50 63.028,53.45"/>
+<polygon points="63.028,56 62.078,53 63.978,53" fill="#000" stroke="none"/>
+<polygon points="63.028,56 90.528,61 63.028,66 35.528,61"/>
+<polygon points="5.7,72 58,72 55.3,82 3,82"/>
+<polyline points="35.528,61 30.5,61 30.5,69.45"/>
+<polygon points="30.5,72 29.55,69 31.45,69" fill="#000" stroke="none"/>
+<polyline points="30.5,82 30.5,88 63.028,88"/>
+<polyline points="90.528,61 95.557,61 95.557,88 63.028,88"/>
+<polyline points="63.028,88 63.028,91.45"/>
+<polygon points="63.028,94 62.078,91 63.978,91" fill="#000" stroke="none"/>
+<polygon points="33.528,94 92.528,94 95.528,99 92.528,104 33.528,104 30.528,99"/>
+<polygon points="43.228,110 85.528,110 82.828,120 40.528,120"/>
+<polyline points="63.028,104 63.028,107.45"/>
+<polygon points="63.028,110 62.078,107 63.978,107" fill="#000" stroke="none"/>
+<polyline points="63.028,120 63.028,126 22.528,126 22.528,99 27.978,99"/>
+<polygon points="30.528,99 27.528,99.95 27.528,98.05" fill="#000" stroke="none"/>
+<polyline points="95.528,99 100.528,99 100.528,129 63.028,129"/>
+<polyline points="63.028,129 63.028,132.45"/>
+<polygon points="63.028,135 62.078,132 63.978,132" fill="#000" stroke="none"/>
+<rect x="53.028" y="135" width="20" height="10" rx="5" ry="5"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="63.028" y="9.339" text-anchor="middle">Начало</text>
+<text x="61.228" y="17.339" text-anchor="end">{</text>
+<text x="63.028" y="25.339" text-anchor="middle">const auto lines = readLines(path);</text>
+<text x="63.028" y="41.506" text-anchor="middle">std::cout &lt;&lt; '\n'</text>
+<text x="63.028" y="46.172" text-anchor="middle">&lt;&lt; path &lt;&lt; '\n';</text>
+<text x="63.028" y="62.339" text-anchor="middle">if (lines.empty())</text>
+<text x="30.5" y="78.339" text-anchor="middle">std::cout &lt;&lt; &quot;(empty file)\n&quot;;</text>
+<text x="34.028" y="59.539" text-anchor="end">1</text>
+<text x="92.028" y="59.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="63.028" y="100.339" text-anchor="middle">for (const std::string&amp; line : lines)</text>
+<text x="63.028" y="116.339" text-anchor="middle">std::cout &lt;&lt; line &lt;&lt; '\n';</text>
+<text x="64.528" y="108.839" text-anchor="start">1</text>
+<text x="97.028" y="97.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="61.228" y="133.339" text-anchor="end">}</text>
+<text x="63.028" y="141.339" text-anchor="middle">Конец</text>
+</g>
+</svg>

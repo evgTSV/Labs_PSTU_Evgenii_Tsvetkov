@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="103.557mm" height="61mm" viewBox="0 0 103.557 61">
+<title>validDate, лист 2 из 2</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="40.528" y="17" width="35" height="25"/>
+<polyline points="58.028,42 58.028,45.45"/>
+<polygon points="58.028,48 57.078,45 58.978,45" fill="#000" stroke="none"/>
+<rect x="48.028" y="48" width="20" height="10" rx="5" ry="5"/>
+<circle cx="58.028" cy="7" r="4"/>
+<polyline points="58.028,11 58.028,14.45"/>
+<polygon points="58.028,17 57.078,14 58.978,14" fill="#000" stroke="none"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="58.028" y="23.841" text-anchor="middle">return y &gt; <tspan font-family='Consolas'>0</tspan> &amp;&amp;</text>
+<text x="58.028" y="28.506" text-anchor="middle">year_month_day(</text>
+<text x="58.028" y="33.172" text-anchor="middle">year(y), month(m),</text>
+<text x="58.028" y="37.837" text-anchor="middle">day(d)).ok();</text>
+<text x="56.228" y="46.339" text-anchor="end">}</text>
+<text x="58.028" y="54.339" text-anchor="middle">Конец</text>
+<text x="58.028" y="8.339" text-anchor="middle">А</text>
+</g>
+</svg>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="90.557mm" height="109mm" viewBox="0 0 90.557 109">
+<title>splitWords, лист 3 из 3</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<polygon points="39.764,17 52.264,29.5 39.764,42 27.264,29.5"/>
+<rect x="4.736" y="48" width="35" height="15"/>
+<polyline points="27.264,29.5 22.236,29.5 22.236,45.45"/>
+<polygon points="22.236,48 21.286,45 23.186,45" fill="#000" stroke="none"/>
+<polyline points="22.236,63 22.236,69 39.764,69"/>
+<polyline points="52.264,29.5 57.293,29.5 57.293,69 39.764,69"/>
+<polyline points="39.764,69 39.764,72.45"/>
+<polygon points="39.764,75 38.814,72 40.714,72" fill="#000" stroke="none"/>
+<rect x="32.264" y="75" width="15" height="15"/>
+<polyline points="39.764,90 39.764,93.45"/>
+<polygon points="39.764,96 38.814,93 40.714,93" fill="#000" stroke="none"/>
+<rect x="29.764" y="96" width="20" height="10" rx="5" ry="5"/>
+<circle cx="39.764" cy="7" r="4"/>
+<polyline points="39.764,11 39.764,14.45"/>
+<polygon points="39.764,17 38.814,14 40.714,14" fill="#000" stroke="none"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="39.764" y="28.506" text-anchor="middle">if (begin</text>
+<text x="39.764" y="33.172" text-anchor="middle">&lt; pos)</text>
+<text x="22.236" y="54.506" text-anchor="middle">words.push_back(</text>
+<text x="22.236" y="59.172" text-anchor="middle">line.substr(begin));</text>
+<text x="25.764" y="28.039" text-anchor="end">1</text>
+<text x="53.764" y="28.039" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="39.764" y="81.506" text-anchor="middle">return</text>
+<text x="39.764" y="86.172" text-anchor="middle">words;</text>
+<text x="37.964" y="94.339" text-anchor="end">}</text>
+<text x="39.764" y="102.339" text-anchor="middle">Конец</text>
+<text x="39.764" y="8.339" text-anchor="middle">Б</text>
+</g>
+</svg>

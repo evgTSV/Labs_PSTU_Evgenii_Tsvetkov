@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128.557mm" height="133mm" viewBox="0 0 128.557 133">
+<title>readLine</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="68.028" y="3" width="20" height="10" rx="5" ry="5"/>
+<polyline points="78.028,13 78.028,16.45"/>
+<polygon points="78.028,19 77.078,16 78.978,16" fill="#000" stroke="none"/>
+<polygon points="60.728,19 98.028,19 95.328,29 58.028,29"/>
+<polyline points="78.028,29 78.028,32.45"/>
+<polygon points="78.028,35 77.078,32 78.978,32" fill="#000" stroke="none"/>
+<rect x="63.028" y="35" width="30" height="10"/>
+<polyline points="78.028,45 78.028,48.45"/>
+<polygon points="78.028,51 77.078,48 78.978,48" fill="#000" stroke="none"/>
+<polygon points="78.028,51 120.528,61 78.028,71 35.528,61"/>
+<rect x="3" y="77" width="55" height="15" rx="7.5" ry="7.5"/>
+<polyline points="35.528,61 30.5,61 30.5,74.45"/>
+<polygon points="30.5,77 29.55,74 31.45,74" fill="#000" stroke="none"/>
+<polyline points="120.528,61 125.557,61 125.557,98 78.028,98"/>
+<polyline points="78.028,98 78.028,101.45"/>
+<polygon points="78.028,104 77.078,101 78.978,101" fill="#000" stroke="none"/>
+<rect x="65.528" y="104" width="25" height="10"/>
+<polyline points="78.028,114 78.028,117.45"/>
+<polygon points="78.028,120 77.078,117 78.978,117" fill="#000" stroke="none"/>
+<rect x="68.028" y="120" width="20" height="10" rx="5" ry="5"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="78.028" y="9.339" text-anchor="middle">Начало</text>
+<text x="76.228" y="17.339" text-anchor="end">{</text>
+<text x="78.028" y="25.339" text-anchor="middle">std::cout &lt;&lt; prompt;</text>
+<text x="78.028" y="41.339" text-anchor="middle">std::string line;</text>
+<text x="78.028" y="60.006" text-anchor="middle">if (!std::getline(std::cin,</text>
+<text x="78.028" y="64.672" text-anchor="middle">line) || line.empty())</text>
+<text x="30.5" y="83.506" text-anchor="middle">throw std::runtime_error(&quot;A</text>
+<text x="30.5" y="88.172" text-anchor="middle">nonempty line is required.&quot;);</text>
+<text x="34.028" y="59.539" text-anchor="end">1</text>
+<text x="122.028" y="59.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="78.028" y="110.339" text-anchor="middle">return line;</text>
+<text x="76.228" y="118.339" text-anchor="end">}</text>
+<text x="78.028" y="126.339" text-anchor="middle">Конец</text>
+</g>
+</svg>

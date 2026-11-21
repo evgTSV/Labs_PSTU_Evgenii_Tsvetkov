@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="88.557mm" height="89mm" viewBox="0 0 88.557 89">
+<title>splitWords, лист 2 из 2</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<polygon points="53.028,17 80.528,22 53.028,27 25.528,22"/>
+<rect x="3" y="33" width="35" height="15"/>
+<polyline points="25.528,22 20.5,22 20.5,30.45"/>
+<polygon points="20.5,33 19.55,30 21.45,30" fill="#000" stroke="none"/>
+<polyline points="20.5,48 20.5,54 53.028,54"/>
+<polyline points="80.528,22 85.557,22 85.557,54 53.028,54"/>
+<polyline points="53.028,54 53.028,57.45"/>
+<polygon points="53.028,60 52.078,57 53.978,57" fill="#000" stroke="none"/>
+<rect x="40.528" y="60" width="25" height="10"/>
+<polyline points="53.028,70 53.028,73.45"/>
+<polygon points="53.028,76 52.078,73 53.978,73" fill="#000" stroke="none"/>
+<rect x="43.028" y="76" width="20" height="10" rx="5" ry="5"/>
+<circle cx="53.028" cy="7" r="4"/>
+<polyline points="53.028,11 53.028,14.45"/>
+<polygon points="53.028,17 52.078,14 53.978,14" fill="#000" stroke="none"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="53.028" y="23.339" text-anchor="middle">if (begin &lt; pos)</text>
+<text x="20.5" y="39.506" text-anchor="middle">words.push_back(</text>
+<text x="20.5" y="44.172" text-anchor="middle">line.substr(begin));</text>
+<text x="24.028" y="20.539" text-anchor="end">1</text>
+<text x="82.028" y="20.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="53.028" y="66.339" text-anchor="middle">return words;</text>
+<text x="51.228" y="74.339" text-anchor="end">}</text>
+<text x="53.028" y="82.339" text-anchor="middle">Конец</text>
+<text x="53.028" y="8.339" text-anchor="middle">А</text>
+</g>
+</svg>

@@ -1,0 +1,34 @@
+Number of lines (at least 10): 10
+Enter 10 lines:
+alpha beta gamma
+red red blue
+book12 page9 book12
+одно, одно два
+One one two
+Repeat repeat Repeat!
+item12345 marker marker
+x7 x7 code54321
+
+final only
+
+F1.txt
+alpha beta gamma
+red red blue
+book12 page9 book12
+одно, одно два
+One one two
+Repeat repeat Repeat!
+item12345 marker marker
+x7 x7 code54321
+
+final only
+
+F2.txt
+red red blue
+book12 page9 book12
+одно, одно два
+Repeat repeat Repeat!
+item12345 marker marker
+x7 x7 code54321
+
+Word number: 13 (item12345, digits: 5)

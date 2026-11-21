@@ -125,19 +125,19 @@
 #par[#"Блок-схемы алгоритмов, выполненные по ГОСТ 19.701-90 "#"[2]"#", приведены ниже. На рисунке "#"1"#" показана функция "#emph("main")#" с внешним циклом по "$x$#". Функции "#emph("sumN")#" и "#emph("sumEps")#", вызываемые из неё как предопределённые процессы, показаны соответственно на рисунке "#"2"#" и на рисунке "#"3"#"."]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab3_main.png", width: 45%))
+#align(center, image("img/lab3_main.png", width: 48.71%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 1 – "#"Блок-схема алгоритма функции main"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab3_sumN.png", width: 45%))
+#align(center, image("img/lab3_sumN.png", width: 52.02%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 2 – "#"Блок-схема алгоритма функции sumN"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab3_sumEps.png", width: 45%))
+#align(center, image("img/lab3_sumEps.png", width: 48.51%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 3 – "#"Блок-схема алгоритма функции sumEps"])
 ]

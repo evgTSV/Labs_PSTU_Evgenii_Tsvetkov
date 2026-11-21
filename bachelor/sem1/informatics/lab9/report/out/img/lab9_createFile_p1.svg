@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="89.557mm" height="222mm" viewBox="0 0 89.557 222">
+<title>createFile, лист 1 из 2</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="45.528" y="3" width="20" height="10" rx="5" ry="5"/>
+<polyline points="55.528,13 55.528,16.45"/>
+<polygon points="55.528,19 54.578,16 56.478,16" fill="#000" stroke="none"/>
+<polygon points="40.728,19 73.028,19 70.328,39 38.028,39"/>
+<polyline points="55.528,39 55.528,42.45"/>
+<polygon points="55.528,45 54.578,42 56.478,42" fill="#000" stroke="none"/>
+<rect x="43.028" y="45" width="25" height="20"/>
+<polyline points="55.528,65 55.528,68.45"/>
+<polygon points="55.528,71 54.578,68 56.478,68" fill="#000" stroke="none"/>
+<polygon points="43.528,71 67.528,71 70.528,78.5 67.528,86 43.528,86 40.528,78.5"/>
+<rect x="45.528" y="92" width="20" height="15"/>
+<polyline points="55.528,107 55.528,110.45"/>
+<polygon points="55.528,113 54.578,110 56.478,110" fill="#000" stroke="none"/>
+<polygon points="55.528,113 75.528,128 55.528,143 35.528,128"/>
+<rect x="8" y="149" width="45" height="25" rx="12.5" ry="12.5"/>
+<polyline points="35.528,128 30.5,128 30.5,146.45"/>
+<polygon points="30.5,149 29.55,146 31.45,146" fill="#000" stroke="none"/>
+<polyline points="75.528,128 80.557,128 80.557,180 55.528,180"/>
+<polyline points="55.528,180 55.528,183.45"/>
+<polygon points="55.528,186 54.578,183 56.478,183" fill="#000" stroke="none"/>
+<rect x="35.528" y="186" width="40" height="10"/>
+<polyline points="55.528,86 55.528,89.45"/>
+<polygon points="55.528,92 54.578,89 56.478,89" fill="#000" stroke="none"/>
+<polyline points="55.528,196 55.528,202 3,202 3,78.5 37.978,78.5"/>
+<polygon points="40.528,78.5 37.528,79.45 37.528,77.55" fill="#000" stroke="none"/>
+<polyline points="70.528,78.5 85.557,78.5 85.557,205 55.528,205"/>
+<polyline points="55.528,205 55.528,208.45"/>
+<polygon points="55.528,211 54.578,208 56.478,208" fill="#000" stroke="none"/>
+<circle cx="55.528" cy="215" r="4"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="55.528" y="9.339" text-anchor="middle">Начало</text>
+<text x="53.728" y="17.339" text-anchor="end">{</text>
+<text x="55.528" y="25.673" text-anchor="middle">std::cout &lt;&lt;</text>
+<text x="55.528" y="30.339" text-anchor="middle">&quot;Enter &quot; &lt;&lt; count</text>
+<text x="55.528" y="35.004" text-anchor="middle">&lt;&lt; &quot; lines:\n&quot;;</text>
+<text x="55.528" y="51.673" text-anchor="middle">std::vector&lt;</text>
+<text x="55.528" y="56.339" text-anchor="middle">std::string&gt;</text>
+<text x="55.528" y="61.004" text-anchor="middle">lines;</text>
+<text x="55.528" y="77.506" text-anchor="middle">for (int i = <tspan font-family='Consolas'>0</tspan>; i</text>
+<text x="55.528" y="82.172" text-anchor="middle">&lt; count; ++i)</text>
+<text x="55.528" y="98.506" text-anchor="middle">std::string</text>
+<text x="55.528" y="103.172" text-anchor="middle">line;</text>
+<text x="55.528" y="127.006" text-anchor="middle">if (!std::getline(</text>
+<text x="55.528" y="131.672" text-anchor="middle">std::cin, line))</text>
+<text x="30.5" y="155.841" text-anchor="middle">throw</text>
+<text x="30.5" y="160.506" text-anchor="middle">std::runtime_error(</text>
+<text x="30.5" y="165.172" text-anchor="middle">&quot;Not enough input</text>
+<text x="30.5" y="169.837" text-anchor="middle">lines.&quot;);</text>
+<text x="34.028" y="126.539" text-anchor="end">1</text>
+<text x="77.028" y="126.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="55.528" y="192.339" text-anchor="middle">lines.push_back(line);</text>
+<text x="53.728" y="90.339" text-anchor="end">{</text>
+<text x="53.728" y="200.339" text-anchor="end">}</text>
+<text x="57.028" y="90.839" text-anchor="start">1</text>
+<text x="72.028" y="77.039" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="55.528" y="216.339" text-anchor="middle">А</text>
+</g>
+</svg>

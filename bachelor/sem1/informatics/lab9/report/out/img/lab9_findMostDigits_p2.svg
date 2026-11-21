@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="31mm" height="46mm" viewBox="0 0 31 46">
+<title>findMostDigits, лист 2 из 2</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="3" y="17" width="25" height="10"/>
+<polyline points="15.5,27 15.5,30.45"/>
+<polygon points="15.5,33 14.55,30 16.45,30" fill="#000" stroke="none"/>
+<rect x="5.5" y="33" width="20" height="10" rx="5" ry="5"/>
+<circle cx="15.5" cy="7" r="4"/>
+<polyline points="15.5,11 15.5,14.45"/>
+<polygon points="15.5,17 14.55,14 16.45,14" fill="#000" stroke="none"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="15.5" y="23.339" text-anchor="middle">return best;</text>
+<text x="13.7" y="31.339" text-anchor="end">}</text>
+<text x="15.5" y="39.339" text-anchor="middle">Конец</text>
+<text x="15.5" y="8.339" text-anchor="middle">А</text>
+</g>
+</svg>

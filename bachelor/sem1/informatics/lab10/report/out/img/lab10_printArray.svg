@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="103.557mm" height="116mm" viewBox="0 0 103.557 116">
+<title>printArray</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="58.028" y="3" width="20" height="10" rx="5" ry="5"/>
+<polyline points="68.028,13 68.028,16.45"/>
+<polygon points="68.028,19 67.078,16 68.978,16" fill="#000" stroke="none"/>
+<polygon points="68.028,19 95.528,24 68.028,29 40.528,24"/>
+<polygon points="5.7,35 68,35 65.3,45 3,45"/>
+<polyline points="40.528,24 35.5,24 35.5,32.45"/>
+<polygon points="35.5,35 34.55,32 36.45,32" fill="#000" stroke="none"/>
+<polyline points="35.5,45 35.5,51 68.028,51"/>
+<polyline points="95.528,24 100.557,24 100.557,51 68.028,51"/>
+<polyline points="68.028,51 68.028,54.45"/>
+<polygon points="68.028,57 67.078,54 68.978,54" fill="#000" stroke="none"/>
+<polygon points="43.528,57 92.528,57 95.528,62 92.528,67 43.528,67 40.528,62"/>
+<polygon points="48.228,73 90.528,73 87.828,88 45.528,88"/>
+<polyline points="68.028,67 68.028,70.45"/>
+<polygon points="68.028,73 67.078,70 68.978,70" fill="#000" stroke="none"/>
+<polyline points="68.028,88 68.028,94 32.528,94 32.528,62 37.978,62"/>
+<polygon points="40.528,62 37.528,62.95 37.528,61.05" fill="#000" stroke="none"/>
+<polyline points="95.528,62 100.528,62 100.528,97 68.028,97"/>
+<polyline points="68.028,97 68.028,100.45"/>
+<polygon points="68.028,103 67.078,100 68.978,100" fill="#000" stroke="none"/>
+<rect x="58.028" y="103" width="20" height="10" rx="5" ry="5"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="68.028" y="9.339" text-anchor="middle">Начало</text>
+<text x="66.228" y="17.339" text-anchor="end">{</text>
+<text x="68.028" y="25.339" text-anchor="middle">if (count == <tspan font-family='Consolas'>0</tspan>)</text>
+<text x="35.5" y="41.339" text-anchor="middle">std::cout &lt;&lt; &quot;(empty array)\n&quot;;</text>
+<text x="39.028" y="22.539" text-anchor="end">1</text>
+<text x="97.028" y="22.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="68.028" y="63.339" text-anchor="middle">for (int i = <tspan font-family='Consolas'>0</tspan>; i &lt; count; ++i)</text>
+<text x="68.028" y="79.506" text-anchor="middle">std::cout &lt;&lt; i + 1 &lt;&lt; &quot;.</text>
+<text x="68.028" y="84.172" text-anchor="middle">&quot; &lt;&lt; array[i] &lt;&lt; '\n';</text>
+<text x="69.528" y="71.839" text-anchor="start">1</text>
+<text x="97.028" y="60.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="66.228" y="101.339" text-anchor="end">}</text>
+<text x="68.028" y="109.339" text-anchor="middle">Конец</text>
+</g>
+</svg>

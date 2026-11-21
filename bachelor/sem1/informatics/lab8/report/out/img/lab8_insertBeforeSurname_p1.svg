@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="103.557mm" height="189mm" viewBox="0 0 103.557 189">
+<title>insertBeforeSurname, лист 1 из 2</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="48.028" y="3" width="20" height="10" rx="5" ry="5"/>
+<polyline points="58.028,13 58.028,16.45"/>
+<polygon points="58.028,19 57.078,16 58.978,16" fill="#000" stroke="none"/>
+<rect x="30.528" y="19" width="55" height="10"/>
+<line x1="32.328" y1="19" x2="32.328" y2="29"/>
+<line x1="83.728" y1="19" x2="83.728" y2="29"/>
+<polyline points="58.028,29 58.028,32.45"/>
+<polygon points="58.028,35 57.078,32 58.978,32" fill="#000" stroke="none"/>
+<rect x="25.528" y="35" width="65" height="15"/>
+<line x1="27.328" y1="35" x2="27.328" y2="50"/>
+<line x1="88.728" y1="35" x2="88.728" y2="50"/>
+<polyline points="58.028,50 58.028,53.45"/>
+<polygon points="58.028,56 57.078,53 58.978,53" fill="#000" stroke="none"/>
+<polygon points="58.028,56 95.528,63.5 58.028,71 20.528,63.5"/>
+<rect x="3" y="77" width="25" height="10" rx="5" ry="5"/>
+<polyline points="20.528,63.5 15.5,63.5 15.5,74.45"/>
+<polygon points="15.5,77 14.55,74 16.45,74" fill="#000" stroke="none"/>
+<polyline points="95.528,63.5 100.557,63.5 100.557,93 58.028,93"/>
+<polyline points="58.028,93 58.028,96.45"/>
+<polygon points="58.028,99 57.078,96 58.978,96" fill="#000" stroke="none"/>
+<polygon points="43.228,99 75.528,99 72.828,114 40.528,114"/>
+<polyline points="58.028,114 58.028,117.45"/>
+<polygon points="58.028,120 57.078,117 58.978,117" fill="#000" stroke="none"/>
+<rect x="35.528" y="120" width="45" height="15"/>
+<line x1="37.328" y1="120" x2="37.328" y2="135"/>
+<line x1="78.728" y1="120" x2="78.728" y2="135"/>
+<polyline points="58.028,135 58.028,138.45"/>
+<polygon points="58.028,141 57.078,138 58.978,138" fill="#000" stroke="none"/>
+<rect x="40.528" y="141" width="35" height="15"/>
+<polyline points="58.028,156 58.028,159.45"/>
+<polygon points="58.028,162 57.078,159 58.978,159" fill="#000" stroke="none"/>
+<rect x="38.028" y="162" width="40" height="10"/>
+<line x1="39.828" y1="162" x2="39.828" y2="172"/>
+<line x1="76.228" y1="162" x2="76.228" y2="172"/>
+<polyline points="58.028,172 58.028,175.45"/>
+<polygon points="58.028,178 57.078,175 58.978,175" fill="#000" stroke="none"/>
+<circle cx="58.028" cy="182" r="4"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="58.028" y="9.339" text-anchor="middle">Начало</text>
+<text x="56.228" y="17.339" text-anchor="end">{</text>
+<text x="58.028" y="25.339" text-anchor="middle">auto students = readFile();</text>
+<text x="58.028" y="41.506" text-anchor="middle">const auto position =</text>
+<text x="58.028" y="46.172" text-anchor="middle">findSurname(students, surname);</text>
+<text x="58.028" y="64.839" text-anchor="middle">if (position == students.end())</text>
+<text x="15.5" y="83.339" text-anchor="middle">return false;</text>
+<text x="19.028" y="62.039" text-anchor="end">1</text>
+<text x="97.028" y="62.039" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="58.028" y="105.506" text-anchor="middle">std::cout &lt;&lt;</text>
+<text x="58.028" y="110.172" text-anchor="middle">&quot;New student:\n&quot;;</text>
+<text x="58.028" y="126.506" text-anchor="middle">const Student student =</text>
+<text x="58.028" y="131.172" text-anchor="middle">readStudent();</text>
+<text x="58.028" y="147.506" text-anchor="middle">students.insert(</text>
+<text x="58.028" y="152.172" text-anchor="middle">position, student);</text>
+<text x="58.028" y="168.339" text-anchor="middle">writeFile(students);</text>
+<text x="58.028" y="183.339" text-anchor="middle">А</text>
+</g>
+</svg>

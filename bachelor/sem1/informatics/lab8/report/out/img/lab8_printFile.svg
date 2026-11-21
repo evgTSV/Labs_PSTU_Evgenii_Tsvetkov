@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="118.557mm" height="184mm" viewBox="0 0 118.557 184">
+<title>printFile</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="63.028" y="3" width="20" height="10" rx="5" ry="5"/>
+<polyline points="73.028,13 73.028,16.45"/>
+<polygon points="73.028,19 72.078,16 73.978,16" fill="#000" stroke="none"/>
+<polygon points="58.228,19 90.528,19 87.828,34 55.528,34"/>
+<polyline points="73.028,34 73.028,37.45"/>
+<polygon points="73.028,40 72.078,37 73.978,37" fill="#000" stroke="none"/>
+<rect x="40.528" y="40" width="65" height="10"/>
+<line x1="42.328" y1="40" x2="42.328" y2="50"/>
+<line x1="103.728" y1="40" x2="103.728" y2="50"/>
+<polyline points="73.028,50 73.028,53.45"/>
+<polygon points="73.028,56 72.078,53 73.978,53" fill="#000" stroke="none"/>
+<polygon points="73.028,56 110.528,61 73.028,66 35.528,61"/>
+<polygon points="5.7,72 58,72 55.3,82 3,82"/>
+<polyline points="35.528,61 30.5,61 30.5,69.45"/>
+<polygon points="30.5,72 29.55,69 31.45,69" fill="#000" stroke="none"/>
+<polyline points="30.5,82 30.5,88 73.028,88"/>
+<polyline points="110.528,61 115.557,61 115.557,88 73.028,88"/>
+<polyline points="73.028,88 73.028,91.45"/>
+<polygon points="73.028,94 72.078,91 73.978,91" fill="#000" stroke="none"/>
+<polygon points="53.528,94 92.528,94 95.528,101.5 92.528,109 53.528,109 50.528,101.5"/>
+<rect x="45.528" y="115" width="55" height="10"/>
+<polyline points="73.028,125 73.028,128.45"/>
+<polygon points="73.028,131 72.078,128 73.978,128" fill="#000" stroke="none"/>
+<polygon points="38.228,131 110.528,131 107.828,156 35.528,156"/>
+<polyline points="73.028,109 73.028,112.45"/>
+<polygon points="73.028,115 72.078,112 73.978,112" fill="#000" stroke="none"/>
+<polyline points="73.028,156 73.028,162 30.528,162 30.528,101.5 47.978,101.5"/>
+<polygon points="50.528,101.5 47.528,102.45 47.528,100.55" fill="#000" stroke="none"/>
+<polyline points="95.528,101.5 115.528,101.5 115.528,165 73.028,165"/>
+<polyline points="73.028,165 73.028,168.45"/>
+<polygon points="73.028,171 72.078,168 73.978,168" fill="#000" stroke="none"/>
+<rect x="63.028" y="171" width="20" height="10" rx="5" ry="5"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="73.028" y="9.339" text-anchor="middle">Начало</text>
+<text x="71.228" y="17.339" text-anchor="end">{</text>
+<text x="73.028" y="25.506" text-anchor="middle">std::cout &lt;&lt; '\n'</text>
+<text x="73.028" y="30.172" text-anchor="middle">&lt;&lt; title &lt;&lt; '\n';</text>
+<text x="73.028" y="46.339" text-anchor="middle">const auto students = readFile();</text>
+<text x="73.028" y="62.339" text-anchor="middle">if (students.empty())</text>
+<text x="30.5" y="78.339" text-anchor="middle">std::cout &lt;&lt; &quot;(empty file)\n&quot;;</text>
+<text x="34.028" y="59.539" text-anchor="end">1</text>
+<text x="112.028" y="59.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="73.028" y="100.506" text-anchor="middle">for (std::size_t i = <tspan font-family='Consolas'>0</tspan>; i</text>
+<text x="73.028" y="105.172" text-anchor="middle">&lt; students.size(); ++i)</text>
+<text x="73.028" y="121.339" text-anchor="middle">const Student&amp; s = students[i];</text>
+<text x="73.028" y="137.841" text-anchor="middle">std::cout &lt;&lt; i + 1 &lt;&lt; &quot;. &quot; &lt;&lt; s.surname &lt;&lt;</text>
+<text x="73.028" y="142.506" text-anchor="middle">' ' &lt;&lt; s.name &lt;&lt; ' ' &lt;&lt; s.patronymic &lt;&lt; &quot; |</text>
+<text x="73.028" y="147.172" text-anchor="middle">&quot; &lt;&lt; s.birthDate &lt;&lt; &quot; | &quot; &lt;&lt; s.address &lt;&lt; &quot;</text>
+<text x="73.028" y="151.837" text-anchor="middle">| &quot; &lt;&lt; s.rating &lt;&lt; '\n';</text>
+<text x="71.228" y="113.339" text-anchor="end">{</text>
+<text x="71.228" y="160.339" text-anchor="end">}</text>
+<text x="74.528" y="113.839" text-anchor="start">1</text>
+<text x="97.028" y="100.039" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="71.228" y="169.339" text-anchor="end">}</text>
+<text x="73.028" y="177.339" text-anchor="middle">Конец</text>
+</g>
+</svg>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="133.557mm" height="190mm" viewBox="0 0 133.557 190">
+<title>createFile</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="73.028" y="3" width="20" height="10" rx="5" ry="5"/>
+<polyline points="83.028,13 83.028,16.45"/>
+<polygon points="83.028,19 82.078,16 83.978,16" fill="#000" stroke="none"/>
+<polygon points="63.228,19 105.528,19 102.828,34 60.528,34"/>
+<polyline points="83.028,34 83.028,37.45"/>
+<polygon points="83.028,40 82.078,37 83.978,37" fill="#000" stroke="none"/>
+<rect x="55.528" y="40" width="55" height="10"/>
+<polyline points="83.028,50 83.028,53.45"/>
+<polygon points="83.028,56 82.078,53 83.978,53" fill="#000" stroke="none"/>
+<polygon points="58.528,56 107.528,56 110.528,61 107.528,66 58.528,66 55.528,61"/>
+<rect x="68.028" y="72" width="30" height="10"/>
+<polyline points="83.028,82 83.028,85.45"/>
+<polygon points="83.028,88 82.078,85 83.978,85" fill="#000" stroke="none"/>
+<polygon points="83.028,88 120.528,95.5 83.028,103 45.528,95.5"/>
+<rect x="8" y="109" width="65" height="15" rx="7.5" ry="7.5"/>
+<polyline points="45.528,95.5 40.5,95.5 40.5,106.45"/>
+<polygon points="40.5,109 39.55,106 41.45,106" fill="#000" stroke="none"/>
+<polyline points="120.528,95.5 125.557,95.5 125.557,130 83.028,130"/>
+<polyline points="83.028,130 83.028,133.45"/>
+<polygon points="83.028,136 82.078,133 83.978,133" fill="#000" stroke="none"/>
+<rect x="63.028" y="136" width="40" height="10"/>
+<polyline points="83.028,66 83.028,69.45"/>
+<polygon points="83.028,72 82.078,69 83.978,69" fill="#000" stroke="none"/>
+<polyline points="83.028,146 83.028,152 3,152 3,61 52.978,61"/>
+<polygon points="55.528,61 52.528,61.95 52.528,60.05" fill="#000" stroke="none"/>
+<polyline points="110.528,61 130.557,61 130.557,155 83.028,155"/>
+<polyline points="83.028,155 83.028,158.45"/>
+<polygon points="83.028,161 82.078,158 83.978,158" fill="#000" stroke="none"/>
+<rect x="55.528" y="161" width="55" height="10"/>
+<line x1="57.328" y1="161" x2="57.328" y2="171"/>
+<line x1="108.728" y1="161" x2="108.728" y2="171"/>
+<polyline points="83.028,171 83.028,174.45"/>
+<polygon points="83.028,177 82.078,174 83.978,174" fill="#000" stroke="none"/>
+<rect x="73.028" y="177" width="20" height="10" rx="5" ry="5"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="83.028" y="9.339" text-anchor="middle">Начало</text>
+<text x="81.228" y="17.339" text-anchor="end">{</text>
+<text x="83.028" y="25.506" text-anchor="middle">std::cout &lt;&lt; &quot;Enter &quot; &lt;&lt;</text>
+<text x="83.028" y="30.172" text-anchor="middle">count &lt;&lt; &quot; lines:\n&quot;;</text>
+<text x="83.028" y="46.339" text-anchor="middle">std::vector&lt;std::string&gt; lines;</text>
+<text x="83.028" y="62.339" text-anchor="middle">for (int i = <tspan font-family='Consolas'>0</tspan>; i &lt; count; ++i)</text>
+<text x="83.028" y="78.339" text-anchor="middle">std::string line;</text>
+<text x="83.028" y="96.839" text-anchor="middle">if (!std::getline(std::cin, line))</text>
+<text x="40.5" y="115.506" text-anchor="middle">throw std::runtime_error(&quot;Not</text>
+<text x="40.5" y="120.172" text-anchor="middle">enough input lines.&quot;);</text>
+<text x="44.028" y="94.039" text-anchor="end">1</text>
+<text x="122.028" y="94.039" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="83.028" y="142.339" text-anchor="middle">lines.push_back(line);</text>
+<text x="81.228" y="70.339" text-anchor="end">{</text>
+<text x="81.228" y="150.339" text-anchor="end">}</text>
+<text x="84.528" y="70.839" text-anchor="start">1</text>
+<text x="112.028" y="59.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="83.028" y="167.339" text-anchor="middle">writeLines(SOURCE, lines);</text>
+<text x="81.228" y="175.339" text-anchor="end">}</text>
+<text x="83.028" y="183.339" text-anchor="middle">Конец</text>
+</g>
+</svg>

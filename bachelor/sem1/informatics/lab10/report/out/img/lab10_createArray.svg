@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="143.557mm" height="163mm" viewBox="0 0 143.557 163">
+<title>createArray</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="78.028" y="3" width="20" height="10" rx="5" ry="5"/>
+<polyline points="88.028,13 88.028,16.45"/>
+<polygon points="88.028,19 87.078,16 88.978,16" fill="#000" stroke="none"/>
+<rect x="68.028" y="19" width="40" height="15"/>
+<polyline points="88.028,34 88.028,37.45"/>
+<polygon points="88.028,40 87.078,37 88.978,37" fill="#000" stroke="none"/>
+<polygon points="68.228,40 110.528,40 107.828,55 65.528,55"/>
+<polyline points="88.028,55 88.028,58.45"/>
+<polygon points="88.028,61 87.078,58 88.978,58" fill="#000" stroke="none"/>
+<polygon points="63.528,61 112.528,61 115.528,66 112.528,71 63.528,71 60.528,66"/>
+<polygon points="88.028,77 130.528,84.5 88.028,92 45.528,84.5"/>
+<rect x="8" y="98" width="65" height="15" rx="7.5" ry="7.5"/>
+<polyline points="45.528,84.5 40.5,84.5 40.5,95.45"/>
+<polygon points="40.5,98 39.55,95 41.45,95" fill="#000" stroke="none"/>
+<polyline points="130.528,84.5 135.557,84.5 135.557,119 88.028,119"/>
+<polyline points="88.028,71 88.028,74.45"/>
+<polygon points="88.028,77 87.078,74 88.978,74" fill="#000" stroke="none"/>
+<polyline points="88.028,119 88.028,125 3,125 3,66 57.978,66"/>
+<polygon points="60.528,66 57.528,66.95 57.528,65.05" fill="#000" stroke="none"/>
+<polyline points="115.528,66 140.557,66 140.557,128 88.028,128"/>
+<polyline points="88.028,128 88.028,131.45"/>
+<polygon points="88.028,134 87.078,131 88.978,131" fill="#000" stroke="none"/>
+<rect x="75.528" y="134" width="25" height="10"/>
+<polyline points="88.028,144 88.028,147.45"/>
+<polygon points="88.028,150 87.078,147 88.978,147" fill="#000" stroke="none"/>
+<rect x="78.028" y="150" width="20" height="10" rx="5" ry="5"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="88.028" y="9.339" text-anchor="middle">Начало</text>
+<text x="86.228" y="17.339" text-anchor="end">{</text>
+<text x="88.028" y="25.506" text-anchor="middle">StringArray array(new</text>
+<text x="88.028" y="30.172" text-anchor="middle">std::string[count]);</text>
+<text x="88.028" y="46.506" text-anchor="middle">std::cout &lt;&lt; &quot;Enter &quot; &lt;&lt;</text>
+<text x="88.028" y="51.172" text-anchor="middle">count &lt;&lt; &quot; strings:\n&quot;;</text>
+<text x="88.028" y="67.339" text-anchor="middle">for (int i = <tspan font-family='Consolas'>0</tspan>; i &lt; count; ++i)</text>
+<text x="88.028" y="85.839" text-anchor="middle">if (!std::getline(std::cin, array[i]))</text>
+<text x="40.5" y="104.506" text-anchor="middle">throw std::runtime_error(&quot;Not</text>
+<text x="40.5" y="109.172" text-anchor="middle">enough input strings.&quot;);</text>
+<text x="44.028" y="83.039" text-anchor="end">1</text>
+<text x="132.028" y="83.039" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="89.528" y="75.839" text-anchor="start">1</text>
+<text x="117.028" y="64.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="88.028" y="140.339" text-anchor="middle">return array;</text>
+<text x="86.228" y="148.339" text-anchor="end">}</text>
+<text x="88.028" y="156.339" text-anchor="middle">Конец</text>
+</g>
+</svg>

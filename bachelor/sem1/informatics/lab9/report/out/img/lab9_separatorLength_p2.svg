@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="26mm" height="46mm" viewBox="0 0 26 46">
+<title>separatorLength, лист 2 из 2</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="3" y="17" width="20" height="10"/>
+<polyline points="13,27 13,30.45"/>
+<polygon points="13,33 12.05,30 13.95,30" fill="#000" stroke="none"/>
+<rect x="3" y="33" width="20" height="10" rx="5" ry="5"/>
+<circle cx="13" cy="7" r="4"/>
+<polyline points="13,11 13,14.45"/>
+<polygon points="13,17 12.05,14 13.95,14" fill="#000" stroke="none"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="13" y="23.339" text-anchor="middle">return <tspan font-family='Consolas'>0</tspan>;</text>
+<text x="11.2" y="31.339" text-anchor="end">}</text>
+<text x="13" y="39.339" text-anchor="middle">Конец</text>
+<text x="13" y="8.339" text-anchor="middle">А</text>
+</g>
+</svg>

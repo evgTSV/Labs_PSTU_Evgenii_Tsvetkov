@@ -112,61 +112,61 @@
 #par[#"Блок-схемы алгоритмов, выполненные по ГОСТ 19.701-90 "#"[2]"#", приведены ниже. Схема функции "#emph("main")#" разделена на три листа: рисунок "#"1"#", рисунок "#"2"#" и рисунок "#"3"#"; места разрыва обозначены соединителями. Функция "#emph("shuffle")#" показана на рисунке "#"4"#", "#emph("makeMatrix")#" – на рисунке "#"5"#", "#emph("buildLine")#" – на рисунке "#"6"#", "#emph("rowIndex")#" – на рисунке "#"7"#", "#emph("restore")#" – на рисунке "#"8"#", "#emph("printMatrix")#" – на рисунке "#"9"#", "#emph("isEqual")#" – на рисунке "#"10"#"."]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab5_main_p1.png", width: 85%))
+#align(center, image("img/lab5_main_p1.png", width: 40.94%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 1 – "#"Блок-схема алгоритма функции main (лист 1 из 3)"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab5_main_p2.png", width: 85%))
+#align(center, image("img/lab5_main_p2.png", width: 66.72%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 2 – "#"Блок-схема алгоритма функции main (лист 2 из 3)"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab5_main_p3.png", width: 85%))
+#align(center, image("img/lab5_main_p3.png", width: 98.79%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 3 – "#"Блок-схема алгоритма функции main (лист 3 из 3)"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab5_shuffle.png", width: 42%))
+#align(center, image("img/lab5_shuffle.png", width: 50.27%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 4 – "#"Блок-схема алгоритма функции shuffle"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab5_makeMatrix.png", width: 38%))
+#align(center, image("img/lab5_makeMatrix.png", width: 56.24%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 5 – "#"Блок-схема алгоритма функции makeMatrix"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab5_buildLine.png", width: 30%))
+#align(center, image("img/lab5_buildLine.png", width: 39.00%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 6 – "#"Блок-схема алгоритма функции buildLine"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab5_rowIndex.png", width: 52%))
+#align(center, image("img/lab5_rowIndex.png", width: 81.59%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 7 – "#"Блок-схема алгоритма функции rowIndex"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab5_restore.png", width: 38%))
+#align(center, image("img/lab5_restore.png", width: 57.30%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 8 – "#"Блок-схема алгоритма функции restore"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab5_printMatrix.png", width: 46%))
+#align(center, image("img/lab5_printMatrix.png", width: 64.68%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 9 – "#"Блок-схема алгоритма функции printMatrix"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab5_isEqual.png", width: 52%))
+#align(center, image("img/lab5_isEqual.png", width: 80.54%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 10 – "#"Блок-схема алгоритма функции isEqual"])
 ]

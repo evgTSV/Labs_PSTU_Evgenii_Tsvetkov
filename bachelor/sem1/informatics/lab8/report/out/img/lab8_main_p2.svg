@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128.557mm" height="167mm" viewBox="0 0 128.557 167">
+<title>main, лист 2 из 2</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<polygon points="53.228,17 105.528,17 102.828,32 50.528,32"/>
+<polyline points="78.028,32 78.028,35.45"/>
+<polygon points="78.028,38 77.078,35 78.978,35" fill="#000" stroke="none"/>
+<rect x="50.528" y="38" width="55" height="10"/>
+<line x1="52.328" y1="38" x2="52.328" y2="48"/>
+<line x1="103.728" y1="38" x2="103.728" y2="48"/>
+<polyline points="78.028,48 78.028,51.45"/>
+<polygon points="78.028,54 77.078,51 78.978,51" fill="#000" stroke="none"/>
+<rect x="58.028" y="54" width="40" height="20"/>
+<line x1="59.828" y1="54" x2="59.828" y2="74"/>
+<line x1="96.228" y1="54" x2="96.228" y2="74"/>
+<polyline points="78.028,74 78.028,77.45"/>
+<polygon points="78.028,80 77.078,77 78.978,77" fill="#000" stroke="none"/>
+<polygon points="78.028,80 120.528,90 78.028,100 35.528,90"/>
+<polygon points="5.7,106 58,106 55.3,121 3,121"/>
+<polyline points="35.528,90 30.5,90 30.5,103.45"/>
+<polygon points="30.5,106 29.55,103 31.45,103" fill="#000" stroke="none"/>
+<polyline points="30.5,121 30.5,127 78.028,127"/>
+<polyline points="120.528,90 125.557,90 125.557,127 78.028,127"/>
+<polyline points="78.028,127 78.028,130.45"/>
+<polygon points="78.028,133 77.078,130 78.978,130" fill="#000" stroke="none"/>
+<rect x="58.028" y="133" width="40" height="15"/>
+<line x1="59.828" y1="133" x2="59.828" y2="148"/>
+<line x1="96.228" y1="133" x2="96.228" y2="148"/>
+<polyline points="78.028,148 78.028,151.45"/>
+<polygon points="78.028,154 77.078,151 78.978,151" fill="#000" stroke="none"/>
+<rect x="68.028" y="154" width="20" height="10" rx="5" ry="5"/>
+<circle cx="78.028" cy="7" r="4"/>
+<polyline points="78.028,11 78.028,14.45"/>
+<polygon points="78.028,17 77.078,14 78.978,14" fill="#000" stroke="none"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="78.028" y="23.506" text-anchor="middle">std::cout &lt;&lt; &quot;\nRemoved</text>
+<text x="78.028" y="28.172" text-anchor="middle">records: &quot; &lt;&lt; removed &lt;&lt; '\n';</text>
+<text x="78.028" y="44.339" text-anchor="middle">printFile(&quot;After deletion&quot;);</text>
+<text x="78.028" y="60.673" text-anchor="middle">const auto surname</text>
+<text x="78.028" y="65.339" text-anchor="middle">= readLine(&quot;\nInsert</text>
+<text x="78.028" y="70.004" text-anchor="middle">before surname: &quot;);</text>
+<text x="78.028" y="91.339" text-anchor="middle">if (!insertBeforeSurname(surname))</text>
+<text x="30.5" y="112.506" text-anchor="middle">std::cout &lt;&lt; &quot;Surname not</text>
+<text x="30.5" y="117.172" text-anchor="middle">found. Nothing inserted.\n&quot;;</text>
+<text x="34.028" y="88.539" text-anchor="end">1</text>
+<text x="122.028" y="88.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="78.028" y="139.506" text-anchor="middle">printFile(&quot;Final file</text>
+<text x="78.028" y="144.172" text-anchor="middle">(students.dat)&quot;);</text>
+<text x="76.228" y="152.339" text-anchor="end">}</text>
+<text x="78.028" y="160.339" text-anchor="middle">Конец</text>
+<text x="78.028" y="8.339" text-anchor="middle">А</text>
+</g>
+</svg>

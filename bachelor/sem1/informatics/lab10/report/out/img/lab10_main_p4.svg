@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="103.557mm" height="124mm" viewBox="0 0 103.557 124">
+<title>main, лист 4 из 4</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<polygon points="50.728,17 78.028,17 75.328,37 48.028,37"/>
+<polyline points="63.028,37 63.028,40.45"/>
+<polygon points="63.028,43 62.078,40 63.978,40" fill="#000" stroke="none"/>
+<rect x="48.028" y="43" width="30" height="20"/>
+<line x1="49.828" y1="43" x2="49.828" y2="63"/>
+<line x1="76.228" y1="43" x2="76.228" y2="63"/>
+<polyline points="63.028,63 63.028,66.45"/>
+<polygon points="63.028,69 62.078,66 63.978,66" fill="#000" stroke="none"/>
+<rect x="48.028" y="69" width="30" height="15"/>
+<line x1="49.828" y1="69" x2="49.828" y2="84"/>
+<line x1="76.228" y1="69" x2="76.228" y2="84"/>
+<polyline points="63.028,84 63.028,87.45"/>
+<polygon points="63.028,90 62.078,87 63.978,87" fill="#000" stroke="none"/>
+<rect x="48.028" y="90" width="30" height="15"/>
+<line x1="49.828" y1="90" x2="49.828" y2="105"/>
+<line x1="76.228" y1="90" x2="76.228" y2="105"/>
+<polyline points="63.028,105 63.028,108.45"/>
+<polygon points="63.028,111 62.078,108 63.978,108" fill="#000" stroke="none"/>
+<rect x="53.028" y="111" width="20" height="10" rx="5" ry="5"/>
+<circle cx="63.028" cy="7" r="4"/>
+<polyline points="63.028,11 63.028,14.45"/>
+<polygon points="63.028,17 62.078,14 63.978,14" fill="#000" stroke="none"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="63.028" y="23.673" text-anchor="middle">std::cout &lt;&lt;</text>
+<text x="63.028" y="28.339" text-anchor="middle">&quot;\nResult</text>
+<text x="63.028" y="33.004" text-anchor="middle">array:\n&quot;;</text>
+<text x="63.028" y="49.673" text-anchor="middle">printArray(</text>
+<text x="63.028" y="54.339" text-anchor="middle">result.get(),</text>
+<text x="63.028" y="59.004" text-anchor="middle">count + 1);</text>
+<text x="63.028" y="75.506" text-anchor="middle">destroyArray(</text>
+<text x="63.028" y="80.172" text-anchor="middle">array);</text>
+<text x="63.028" y="96.506" text-anchor="middle">destroyArray(</text>
+<text x="63.028" y="101.172" text-anchor="middle">result);</text>
+<text x="61.228" y="109.339" text-anchor="end">}</text>
+<text x="63.028" y="117.339" text-anchor="middle">Конец</text>
+<text x="63.028" y="8.339" text-anchor="middle">В</text>
+</g>
+</svg>

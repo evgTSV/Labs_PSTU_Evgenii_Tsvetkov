@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="123.557mm" height="181mm" viewBox="0 0 123.557 181">
+<title>main, лист 2 из 3</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<polygon points="48.228,17 110.528,17 107.828,32 45.528,32"/>
+<polyline points="78.028,32 78.028,35.45"/>
+<polygon points="78.028,38 77.078,35 78.978,35" fill="#000" stroke="none"/>
+<rect x="65.528" y="38" width="25" height="10"/>
+<polyline points="78.028,48 78.028,51.45"/>
+<polygon points="78.028,54 77.078,51 78.978,51" fill="#000" stroke="none"/>
+<polygon points="78.028,54 115.528,69 78.028,84 40.528,69"/>
+<rect x="3" y="90" width="65" height="15" rx="7.5" ry="7.5"/>
+<polyline points="40.528,69 35.5,69 35.5,87.45"/>
+<polygon points="35.5,90 34.55,87 36.45,87" fill="#000" stroke="none"/>
+<polyline points="115.528,69 120.557,69 120.557,111 78.028,111"/>
+<polyline points="78.028,111 78.028,114.45"/>
+<polygon points="78.028,117 77.078,114 78.978,114" fill="#000" stroke="none"/>
+<polygon points="48.228,117 110.528,117 107.828,132 45.528,132"/>
+<polyline points="78.028,132 78.028,135.45"/>
+<polygon points="78.028,138 77.078,135 78.978,135" fill="#000" stroke="none"/>
+<polygon points="53.228,138 105.528,138 102.828,148 50.528,148"/>
+<polyline points="78.028,148 78.028,151.45"/>
+<polygon points="78.028,154 77.078,151 78.978,151" fill="#000" stroke="none"/>
+<rect x="60.528" y="154" width="35" height="10"/>
+<polyline points="78.028,164 78.028,167.45"/>
+<polygon points="78.028,170 77.078,167 78.978,167" fill="#000" stroke="none"/>
+<circle cx="78.028" cy="174" r="4"/>
+<circle cx="78.028" cy="7" r="4"/>
+<polyline points="78.028,11 78.028,14.45"/>
+<polygon points="78.028,17 77.078,14 78.978,14" fill="#000" stroke="none"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="78.028" y="23.506" text-anchor="middle">std::cout &lt;&lt; &quot;\nInsertion position</text>
+<text x="78.028" y="28.172" text-anchor="middle">(1..&quot; &lt;&lt; count + 1 &lt;&lt; &quot;): &quot;;</text>
+<text x="78.028" y="44.339" text-anchor="middle">int position;</text>
+<text x="78.028" y="65.673" text-anchor="middle">if (!(std::cin &gt;&gt;</text>
+<text x="78.028" y="70.339" text-anchor="middle">position) || position &lt; 1</text>
+<text x="78.028" y="75.004" text-anchor="middle">|| position &gt; count + 1)</text>
+<text x="35.5" y="96.506" text-anchor="middle">throw std::runtime_error(&quot;Invalid</text>
+<text x="35.5" y="101.172" text-anchor="middle">insertion position.&quot;);</text>
+<text x="39.028" y="67.539" text-anchor="end">1</text>
+<text x="117.028" y="67.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="78.028" y="123.506" text-anchor="middle">std::cin.ignore(std::numeric_limits&lt;</text>
+<text x="78.028" y="128.172" text-anchor="middle">std::streamsize&gt;::max(), '\n');</text>
+<text x="78.028" y="144.339" text-anchor="middle">std::cout &lt;&lt; &quot;New string: &quot;;</text>
+<text x="78.028" y="160.339" text-anchor="middle">std::string value;</text>
+<text x="78.028" y="175.339" text-anchor="middle">Б</text>
+<text x="78.028" y="8.339" text-anchor="middle">А</text>
+</g>
+</svg>

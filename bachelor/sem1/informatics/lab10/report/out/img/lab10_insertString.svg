@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="74mm" height="177mm" viewBox="0 0 74 177">
+<title>insertString</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="28.5" y="3" width="20" height="10" rx="5" ry="5"/>
+<polyline points="38.5,13 38.5,16.45"/>
+<polygon points="38.5,19 37.55,16 39.45,16" fill="#000" stroke="none"/>
+<rect x="11" y="19" width="55" height="20"/>
+<polyline points="38.5,39 38.5,42.45"/>
+<polygon points="38.5,45 37.55,42 39.45,42" fill="#000" stroke="none"/>
+<polygon points="14,45 63,45 66,50 63,55 14,55 11,50"/>
+<rect x="21" y="61" width="35" height="10"/>
+<polyline points="38.5,55 38.5,58.45"/>
+<polygon points="38.5,61 37.55,58 39.45,58" fill="#000" stroke="none"/>
+<polyline points="38.5,71 38.5,77 3,77 3,50 8.45,50"/>
+<polygon points="11,50 8,50.95 8,49.05" fill="#000" stroke="none"/>
+<polyline points="66,50 71,50 71,80 38.5,80"/>
+<polyline points="38.5,80 38.5,83.45"/>
+<polygon points="38.5,86 37.55,83 39.45,83" fill="#000" stroke="none"/>
+<rect x="18.5" y="86" width="40" height="10"/>
+<polyline points="38.5,96 38.5,99.45"/>
+<polygon points="38.5,102 37.55,99 39.45,99" fill="#000" stroke="none"/>
+<polygon points="24,102 53,102 56,109.5 53,117 24,117 21,109.5"/>
+<rect x="18.5" y="123" width="40" height="10"/>
+<polyline points="38.5,117 38.5,120.45"/>
+<polygon points="38.5,123 37.55,120 39.45,120" fill="#000" stroke="none"/>
+<polyline points="38.5,133 38.5,139 13,139 13,109.5 18.45,109.5"/>
+<polygon points="21,109.5 18,110.45 18,108.55" fill="#000" stroke="none"/>
+<polyline points="56,109.5 63.5,109.5 63.5,142 38.5,142"/>
+<polyline points="38.5,142 38.5,145.45"/>
+<polygon points="38.5,148 37.55,145 39.45,145" fill="#000" stroke="none"/>
+<rect x="26" y="148" width="25" height="10"/>
+<polyline points="38.5,158 38.5,161.45"/>
+<polygon points="38.5,164 37.55,161 39.45,161" fill="#000" stroke="none"/>
+<rect x="28.5" y="164" width="20" height="10" rx="5" ry="5"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="38.5" y="9.339" text-anchor="middle">Начало</text>
+<text x="36.7" y="17.339" text-anchor="end">{</text>
+<text x="38.5" y="25.673" text-anchor="middle">const int index = position - 1;</text>
+<text x="38.5" y="30.339" text-anchor="middle">StringArray result(new</text>
+<text x="38.5" y="35.004" text-anchor="middle">std::string[count + 1]);</text>
+<text x="38.5" y="51.339" text-anchor="middle">for (int i = <tspan font-family='Consolas'>0</tspan>; i &lt; index; ++i)</text>
+<text x="38.5" y="67.339" text-anchor="middle">result[i] = array[i];</text>
+<text x="40" y="59.839" text-anchor="start">1</text>
+<text x="67.5" y="48.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="38.5" y="92.339" text-anchor="middle">result[index] = value;</text>
+<text x="38.5" y="108.506" text-anchor="middle">for (int i = index;</text>
+<text x="38.5" y="113.172" text-anchor="middle">i &lt; count; ++i)</text>
+<text x="38.5" y="129.339" text-anchor="middle">result[i + 1] = array[i];</text>
+<text x="40" y="121.839" text-anchor="start">1</text>
+<text x="57.5" y="108.039" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="38.5" y="154.339" text-anchor="middle">return result;</text>
+<text x="36.7" y="162.339" text-anchor="end">}</text>
+<text x="38.5" y="170.339" text-anchor="middle">Конец</text>
+</g>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="51mm" height="69mm" viewBox="0 0 51 69">
+<title>handleMainError</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="15.5" y="3" width="20" height="10" rx="5" ry="5"/>
+<polyline points="25.5,13 25.5,16.45"/>
+<polygon points="25.5,19 24.55,16 26.45,16" fill="#000" stroke="none"/>
+<polygon points="5.7,19 48,19 45.3,34 3,34"/>
+<polyline points="25.5,34 25.5,37.45"/>
+<polygon points="25.5,40 24.55,37 26.45,37" fill="#000" stroke="none"/>
+<rect x="15.5" y="40" width="20" height="10"/>
+<polyline points="25.5,50 25.5,53.45"/>
+<polygon points="25.5,56 24.55,53 26.45,53" fill="#000" stroke="none"/>
+<rect x="15.5" y="56" width="20" height="10" rx="5" ry="5"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="25.5" y="9.339" text-anchor="middle">Начало</text>
+<text x="23.7" y="17.339" text-anchor="end">{</text>
+<text x="25.5" y="25.506" text-anchor="middle">std::cerr &lt;&lt; &quot;Error: &quot;</text>
+<text x="25.5" y="30.172" text-anchor="middle">&lt;&lt; error.what() &lt;&lt; '\n';</text>
+<text x="25.5" y="46.339" text-anchor="middle">return 1;</text>
+<text x="23.7" y="54.339" text-anchor="end">}</text>
+<text x="25.5" y="62.339" text-anchor="middle">Конец</text>
+</g>
+</svg>

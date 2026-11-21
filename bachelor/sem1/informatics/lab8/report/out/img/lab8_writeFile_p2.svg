@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="133.557mm" height="99mm" viewBox="0 0 133.557 99">
+<title>writeFile, лист 2 из 2</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<polygon points="83.028,17 125.528,24.5 83.028,32 40.528,24.5"/>
+<rect x="3" y="38" width="65" height="15" rx="7.5" ry="7.5"/>
+<polyline points="40.528,24.5 35.5,24.5 35.5,35.45"/>
+<polygon points="35.5,38 34.55,35 36.45,35" fill="#000" stroke="none"/>
+<polyline points="125.528,24.5 130.557,24.5 130.557,59 83.028,59"/>
+<polyline points="83.028,59 83.028,62.45"/>
+<polygon points="83.028,65 82.078,62 83.978,62" fill="#000" stroke="none"/>
+<rect x="55.528" y="65" width="55" height="15"/>
+<polyline points="83.028,80 83.028,83.45"/>
+<polygon points="83.028,86 82.078,83 83.978,83" fill="#000" stroke="none"/>
+<rect x="73.028" y="86" width="20" height="10" rx="5" ry="5"/>
+<circle cx="83.028" cy="7" r="4"/>
+<polyline points="83.028,11 83.028,14.45"/>
+<polygon points="83.028,17 82.078,14 83.978,14" fill="#000" stroke="none"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="83.028" y="25.839" text-anchor="middle">if (std::fclose(file.release()) != <tspan font-family='Consolas'>0</tspan>)</text>
+<text x="35.5" y="44.506" text-anchor="middle">throw std::runtime_error(&quot;Close</text>
+<text x="35.5" y="49.172" text-anchor="middle">failed for students.tmp.&quot;);</text>
+<text x="39.028" y="23.039" text-anchor="end">1</text>
+<text x="127.028" y="23.039" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="83.028" y="71.506" text-anchor="middle">std::filesystem::rename(</text>
+<text x="83.028" y="76.172" text-anchor="middle">TEMP_FILE, DATA_FILE);</text>
+<text x="81.228" y="84.339" text-anchor="end">}</text>
+<text x="83.028" y="92.339" text-anchor="middle">Конец</text>
+<text x="83.028" y="8.339" text-anchor="middle">А</text>
+</g>
+</svg>

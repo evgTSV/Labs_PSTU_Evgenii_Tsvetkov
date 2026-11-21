@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="131.085mm" height="188mm" viewBox="0 0 131.085 188">
+<title>splitWords, лист 1 из 2</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="43.028" y="3" width="20" height="10" rx="5" ry="5"/>
+<polyline points="53.028,13 53.028,16.45"/>
+<polygon points="53.028,19 52.078,16 53.978,16" fill="#000" stroke="none"/>
+<rect x="20.528" y="19" width="65" height="20"/>
+<polyline points="53.028,39 53.028,42.45"/>
+<polygon points="53.028,45 52.078,42 53.978,42" fill="#000" stroke="none"/>
+<polygon points="33.528,45 72.528,45 75.528,50 72.528,55 33.528,55 30.528,50"/>
+<rect x="20.528" y="61" width="65" height="15"/>
+<line x1="22.328" y1="61" x2="22.328" y2="76"/>
+<line x1="83.728" y1="61" x2="83.728" y2="76"/>
+<polyline points="53.028,76 53.028,79.45"/>
+<polygon points="53.028,82 52.078,79 53.978,79" fill="#000" stroke="none"/>
+<polygon points="53.028,82 85.528,87 53.028,92 20.528,87"/>
+<rect x="8" y="98" width="15" height="10"/>
+<polygon points="90.557,98 118.057,103 90.557,108 63.057,103"/>
+<rect x="30.528" y="114" width="55" height="15"/>
+<polyline points="63.057,103 58.028,103 58.028,111.45"/>
+<polygon points="58.028,114 57.078,111 58.978,111" fill="#000" stroke="none"/>
+<polyline points="58.028,129 58.028,135 90.557,135"/>
+<polyline points="118.057,103 123.085,103 123.085,135 90.557,135"/>
+<polyline points="90.557,135 90.557,138.45"/>
+<polygon points="90.557,141 89.607,138 91.507,138" fill="#000" stroke="none"/>
+<rect x="73.057" y="141" width="35" height="15"/>
+<polyline points="20.528,87 15.5,87 15.5,95.45"/>
+<polygon points="15.5,98 14.55,95 16.45,95" fill="#000" stroke="none"/>
+<polyline points="15.5,108 15.5,162 53.028,162"/>
+<polyline points="85.528,87 90.557,87 90.557,95.45"/>
+<polygon points="90.557,98 89.607,95 91.507,95" fill="#000" stroke="none"/>
+<polyline points="90.557,156 90.557,162 53.028,162"/>
+<polyline points="53.028,55 53.028,58.45"/>
+<polygon points="53.028,61 52.078,58 53.978,58" fill="#000" stroke="none"/>
+<polyline points="53.028,162 53.028,168 3,168 3,50 27.978,50"/>
+<polygon points="30.528,50 27.528,50.95 27.528,49.05" fill="#000" stroke="none"/>
+<polyline points="75.528,50 128.085,50 128.085,171 53.028,171"/>
+<polyline points="53.028,171 53.028,174.45"/>
+<polygon points="53.028,177 52.078,174 53.978,174" fill="#000" stroke="none"/>
+<circle cx="53.028" cy="181" r="4"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="53.028" y="9.339" text-anchor="middle">Начало</text>
+<text x="51.228" y="17.339" text-anchor="end">{</text>
+<text x="53.028" y="25.673" text-anchor="middle">std::vector&lt;std::string_view&gt; words;</text>
+<text x="53.028" y="30.339" text-anchor="middle">std::size_t begin = <tspan font-family='Consolas'>0</tspan>;</text>
+<text x="53.028" y="35.004" text-anchor="middle">std::size_t pos = <tspan font-family='Consolas'>0</tspan>;</text>
+<text x="53.028" y="51.339" text-anchor="middle">while (pos &lt; line.size())</text>
+<text x="53.028" y="67.506" text-anchor="middle">const auto separator =</text>
+<text x="53.028" y="72.172" text-anchor="middle">separatorLength(line.substr(pos));</text>
+<text x="53.028" y="88.339" text-anchor="middle">if (separator == <tspan font-family='Consolas'>0</tspan>)</text>
+<text x="15.5" y="104.339" text-anchor="middle">++pos;</text>
+<text x="90.557" y="104.339" text-anchor="middle">if (begin &lt; pos)</text>
+<text x="58.028" y="120.506" text-anchor="middle">words.push_back(line.substr(</text>
+<text x="58.028" y="125.172" text-anchor="middle">begin, pos - begin));</text>
+<text x="61.557" y="101.539" text-anchor="end">1</text>
+<text x="119.557" y="101.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="90.557" y="147.506" text-anchor="middle">pos += separator;</text>
+<text x="90.557" y="152.172" text-anchor="middle">begin = pos;</text>
+<text x="88.757" y="96.339" text-anchor="end">{</text>
+<text x="88.757" y="160.339" text-anchor="end">}</text>
+<text x="19.028" y="85.539" text-anchor="end">1</text>
+<text x="87.028" y="85.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="51.228" y="59.339" text-anchor="end">{</text>
+<text x="51.228" y="166.339" text-anchor="end">}</text>
+<text x="54.528" y="59.839" text-anchor="start">1</text>
+<text x="77.028" y="48.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="53.028" y="182.339" text-anchor="middle">А</text>
+</g>
+</svg>

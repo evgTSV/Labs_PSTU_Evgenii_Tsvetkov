@@ -69,3 +69,5 @@ stamp-h1
 *.docx
 *.doc
 report*.json
+
+.claude

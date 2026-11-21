@@ -111,43 +111,43 @@
 #par[#"Блок-схемы алгоритмов, выполненные по ГОСТ 19.701-90 "#"[2]"#", приведены ниже. Для задания 1 схема функции "#emph("main")#" разделена на четыре листа: рисунок "#"1"#", рисунок "#"2"#", рисунок "#"3"#" и рисунок "#"4"#". Функция "#emph("del")#" для двумерного массива показана на рисунке "#"5"#", функция "#emph("del")#" для одномерного массива – на рисунке "#"6"#" и рисунке "#"7"#"."]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab7_1_main_p1.png", width: 60%))
+#align(center, image("img/lab7_1_main_p1.png", width: 47.39%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 1 – "#"Блок-схема алгоритма функции main, задание 1 (лист 1 из 4)"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab7_1_main_p2.png", width: 60%))
+#align(center, image("img/lab7_1_main_p2.png", width: 52.90%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 2 – "#"Блок-схема алгоритма функции main, задание 1 (лист 2 из 4)"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab7_1_main_p3.png", width: 59%))
+#align(center, image("img/lab7_1_main_p3.png", width: 45.81%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 3 – "#"Блок-схема алгоритма функции main, задание 1 (лист 3 из 4)"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab7_1_main_p4.png", width: 60%))
+#align(center, image("img/lab7_1_main_p4.png", width: 48.51%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 4 – "#"Блок-схема алгоритма функции main, задание 1 (лист 4 из 4)"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab7_1_delRows.png", width: 38%))
+#align(center, image("img/lab7_1_delRows.png", width: 56.24%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 5 – "#"Блок-схема алгоритма функции del для двумерного массива"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab7_1_delZeros_p1.png", width: 64%))
+#align(center, image("img/lab7_1_delZeros_p1.png", width: 72.82%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 6 – "#"Блок-схема алгоритма функции del для одномерного массива (лист 1 из 2)"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab7_1_delZeros_p2.png", width: 64%))
+#align(center, image("img/lab7_1_delZeros_p2.png", width: 79.83%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 7 – "#"Блок-схема алгоритма функции del для одномерного массива (лист 2 из 2)"])
 ]
@@ -155,37 +155,37 @@
 #par[#"Для задания 2 функция "#emph("main")#" показана на рисунке "#"8"#", "#emph("length")#" – на рисунке "#"9"#", "#emph("square")#" – на рисунке "#"10"#", "#emph("square1")#" – на рисунке "#"11"#", "#emph("longestDiagonal")#" – на рисунке "#"12"#", "#emph("maxTriangle")#" – на рисунке "#"13"#"."]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab7_2_main.png", width: 39%))
+#align(center, image("img/lab7_2_main.png", width: 38.52%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 8 – "#"Блок-схема алгоритма функции main, задание 2"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab7_2_length.png", width: 42%))
+#align(center, image("img/lab7_2_length.png", width: 42.88%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 9 – "#"Блок-схема алгоритма функции length"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab7_2_square.png", width: 48%))
+#align(center, image("img/lab7_2_square.png", width: 49.92%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 10 – "#"Блок-схема алгоритма функции square"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab7_2_square1.png", width: 43%))
+#align(center, image("img/lab7_2_square1.png", width: 55.72%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 11 – "#"Блок-схема алгоритма функции square1"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab7_2_longestDiagonal.png", width: 53%))
+#align(center, image("img/lab7_2_longestDiagonal.png", width: 69.68%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 12 – "#"Блок-схема алгоритма функции longestDiagonal"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab7_2_maxTriangle.png", width: 42%))
+#align(center, image("img/lab7_2_maxTriangle.png", width: 63.54%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 13 – "#"Блок-схема алгоритма функции maxTriangle"])
 ]

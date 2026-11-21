@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="113.557mm" height="142mm" viewBox="0 0 113.557 142">
+<title>hasRepeatedWord</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="53.028" y="3" width="20" height="10" rx="5" ry="5"/>
+<polyline points="63.028,13 63.028,16.45"/>
+<polygon points="63.028,19 62.078,16 63.978,16" fill="#000" stroke="none"/>
+<rect x="40.528" y="19" width="45" height="15"/>
+<polyline points="63.028,34 63.028,37.45"/>
+<polygon points="63.028,40 62.078,37 63.978,37" fill="#000" stroke="none"/>
+<polygon points="46.028,40 80.028,40 83.028,47.5 80.028,55 46.028,55 43.028,47.5"/>
+<polygon points="63.028,61 100.528,68.5 63.028,76 25.528,68.5"/>
+<rect x="8" y="82" width="25" height="10" rx="5" ry="5"/>
+<polyline points="25.528,68.5 20.5,68.5 20.5,79.45"/>
+<polygon points="20.5,82 19.55,79 21.45,79" fill="#000" stroke="none"/>
+<polyline points="100.528,68.5 105.557,68.5 105.557,98 63.028,98"/>
+<polyline points="63.028,55 63.028,58.45"/>
+<polygon points="63.028,61 62.078,58 63.978,58" fill="#000" stroke="none"/>
+<polyline points="63.028,98 63.028,104 3,104 3,47.5 40.478,47.5"/>
+<polygon points="43.028,47.5 40.028,48.45 40.028,46.55" fill="#000" stroke="none"/>
+<polyline points="83.028,47.5 110.557,47.5 110.557,107 63.028,107"/>
+<polyline points="63.028,107 63.028,110.45"/>
+<polygon points="63.028,113 62.078,110 63.978,110" fill="#000" stroke="none"/>
+<rect x="50.528" y="113" width="25" height="10"/>
+<polyline points="63.028,123 63.028,126.45"/>
+<polygon points="63.028,129 62.078,126 63.978,126" fill="#000" stroke="none"/>
+<rect x="53.028" y="129" width="20" height="10" rx="5" ry="5"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="63.028" y="9.339" text-anchor="middle">Начало</text>
+<text x="61.228" y="17.339" text-anchor="end">{</text>
+<text x="63.028" y="25.506" text-anchor="middle">std::unordered_set&lt;</text>
+<text x="63.028" y="30.172" text-anchor="middle">std::string_view&gt; seen;</text>
+<text x="63.028" y="46.506" text-anchor="middle">for (const auto word</text>
+<text x="63.028" y="51.172" text-anchor="middle">: splitWords(line))</text>
+<text x="63.028" y="69.839" text-anchor="middle">if (!seen.insert(word).second)</text>
+<text x="20.5" y="88.339" text-anchor="middle">return true;</text>
+<text x="24.028" y="67.039" text-anchor="end">1</text>
+<text x="102.028" y="67.039" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="64.528" y="59.839" text-anchor="start">1</text>
+<text x="84.528" y="46.039" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="63.028" y="119.339" text-anchor="middle">return false;</text>
+<text x="61.228" y="127.339" text-anchor="end">}</text>
+<text x="63.028" y="135.339" text-anchor="middle">Конец</text>
+</g>
+</svg>

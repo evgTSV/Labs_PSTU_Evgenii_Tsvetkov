@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="143.557mm" height="182mm" viewBox="0 0 143.557 182">
+<title>writeFile, лист 1 из 2</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="78.028" y="3" width="20" height="10" rx="5" ry="5"/>
+<polyline points="88.028,13 88.028,16.45"/>
+<polygon points="88.028,19 87.078,16 88.978,16" fill="#000" stroke="none"/>
+<rect x="55.528" y="19" width="65" height="15"/>
+<polyline points="88.028,34 88.028,37.45"/>
+<polygon points="88.028,40 87.078,37 88.978,37" fill="#000" stroke="none"/>
+<polygon points="88.028,40 103.028,45 88.028,50 73.028,45"/>
+<rect x="35.5" y="56" width="65" height="15" rx="7.5" ry="7.5"/>
+<polyline points="73.028,45 68,45 68,53.45"/>
+<polygon points="68,56 67.05,53 68.95,53" fill="#000" stroke="none"/>
+<polyline points="103.028,45 108.057,45 108.057,77 88.028,77"/>
+<polyline points="88.028,77 88.028,80.45"/>
+<polygon points="88.028,83 87.078,80 88.978,80" fill="#000" stroke="none"/>
+<polygon points="71.028,83 105.028,83 108.028,90.5 105.028,98 71.028,98 68.028,90.5"/>
+<polygon points="88.028,104 130.528,116.5 88.028,129 45.528,116.5"/>
+<rect x="8" y="135" width="65" height="15" rx="7.5" ry="7.5"/>
+<polyline points="45.528,116.5 40.5,116.5 40.5,132.45"/>
+<polygon points="40.5,135 39.55,132 41.45,132" fill="#000" stroke="none"/>
+<polyline points="130.528,116.5 135.557,116.5 135.557,156 88.028,156"/>
+<polyline points="88.028,98 88.028,101.45"/>
+<polygon points="88.028,104 87.078,101 88.978,101" fill="#000" stroke="none"/>
+<polyline points="88.028,156 88.028,162 3,162 3,90.5 65.478,90.5"/>
+<polygon points="68.028,90.5 65.028,91.45 65.028,89.55" fill="#000" stroke="none"/>
+<polyline points="108.028,90.5 140.557,90.5 140.557,165 88.028,165"/>
+<polyline points="88.028,165 88.028,168.45"/>
+<polygon points="88.028,171 87.078,168 88.978,168" fill="#000" stroke="none"/>
+<circle cx="88.028" cy="175" r="4"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="88.028" y="9.339" text-anchor="middle">Начало</text>
+<text x="86.228" y="17.339" text-anchor="end">{</text>
+<text x="88.028" y="25.506" text-anchor="middle">File file(std::fopen(TEMP_FILE,</text>
+<text x="88.028" y="30.172" text-anchor="middle">&quot;wb&quot;), &amp;std::fclose);</text>
+<text x="88.028" y="46.339" text-anchor="middle">if (!file)</text>
+<text x="68" y="62.506" text-anchor="middle">throw std::runtime_error(&quot;Cannot</text>
+<text x="68" y="67.172" text-anchor="middle">open students.tmp for writing.&quot;);</text>
+<text x="71.528" y="43.539" text-anchor="end">1</text>
+<text x="104.528" y="43.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="88.028" y="89.506" text-anchor="middle">for (const Student&amp;</text>
+<text x="88.028" y="94.172" text-anchor="middle">student : students)</text>
+<text x="88.028" y="115.506" text-anchor="middle">if (std::fwrite(&amp;student, sizeof</text>
+<text x="88.028" y="120.172" text-anchor="middle">student, 1, file.get()) != 1)</text>
+<text x="40.5" y="141.506" text-anchor="middle">throw std::runtime_error(&quot;Write</text>
+<text x="40.5" y="146.172" text-anchor="middle">failed for students.tmp.&quot;);</text>
+<text x="44.028" y="115.039" text-anchor="end">1</text>
+<text x="132.028" y="115.039" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="89.528" y="102.839" text-anchor="start">1</text>
+<text x="109.528" y="89.039" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="88.028" y="176.339" text-anchor="middle">А</text>
+</g>
+</svg>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="171.085mm" height="198mm" viewBox="0 0 171.085 198">
+<title>separatorLength, лист 1 из 2</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="110.557" y="3" width="20" height="10" rx="5" ry="5"/>
+<polyline points="120.557,13 120.557,16.45"/>
+<polygon points="120.557,19 119.607,16 121.507,16" fill="#000" stroke="none"/>
+<polygon points="120.557,19 163.057,34 120.557,49 78.057,34"/>
+<rect x="63.028" y="55" width="20" height="10" rx="5" ry="5"/>
+<polyline points="78.057,34 73.028,34 73.028,52.45"/>
+<polygon points="73.028,55 72.078,52 73.978,52" fill="#000" stroke="none"/>
+<polyline points="163.057,34 168.085,34 168.085,71 120.557,71"/>
+<polyline points="120.557,71 120.557,74.45"/>
+<polygon points="120.557,77 119.607,74 121.507,74" fill="#000" stroke="none"/>
+<polygon points="120.557,77 163.057,89.5 120.557,102 78.057,89.5"/>
+<polygon points="51.028,108 95.028,108 98.028,115.5 95.028,123 51.028,123 48.028,115.5"/>
+<polygon points="73.028,129 110.528,136.5 73.028,144 35.528,136.5"/>
+<rect x="8" y="150" width="45" height="10" rx="5" ry="5"/>
+<polyline points="35.528,136.5 30.5,136.5 30.5,147.45"/>
+<polygon points="30.5,150 29.55,147 31.45,147" fill="#000" stroke="none"/>
+<polyline points="110.528,136.5 115.557,136.5 115.557,166 73.028,166"/>
+<polyline points="73.028,123 73.028,126.45"/>
+<polygon points="73.028,129 72.078,126 73.978,126" fill="#000" stroke="none"/>
+<polyline points="73.028,166 73.028,172 3,172 3,115.5 45.478,115.5"/>
+<polygon points="48.028,115.5 45.028,116.45 45.028,114.55" fill="#000" stroke="none"/>
+<polyline points="98.028,115.5 120.557,115.5 120.557,175 73.028,175"/>
+<polyline points="78.057,89.5 73.028,89.5 73.028,105.45"/>
+<polygon points="73.028,108 72.078,105 73.978,105" fill="#000" stroke="none"/>
+<polyline points="73.028,175 73.028,181 120.557,181"/>
+<polyline points="163.057,89.5 168.085,89.5 168.085,181 120.557,181"/>
+<polyline points="120.557,181 120.557,184.45"/>
+<polygon points="120.557,187 119.607,184 121.507,184" fill="#000" stroke="none"/>
+<circle cx="120.557" cy="191" r="4"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="120.557" y="9.339" text-anchor="middle">Начало</text>
+<text x="118.757" y="17.339" text-anchor="end">{</text>
+<text x="120.557" y="30.673" text-anchor="middle">if (SEPARATORS.find(</text>
+<text x="120.557" y="35.339" text-anchor="middle">text.front()) !=</text>
+<text x="120.557" y="40.004" text-anchor="middle">std::string_view::npos)</text>
+<text x="73.028" y="61.339" text-anchor="middle">return 1;</text>
+<text x="76.557" y="32.539" text-anchor="end">1</text>
+<text x="164.557" y="32.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="120.557" y="88.506" text-anchor="middle">if (static_cast&lt;unsigned</text>
+<text x="120.557" y="93.172" text-anchor="middle">char&gt;(text.front()) &gt;= <tspan font-family='Consolas'>0</tspan>x8<tspan font-family='Consolas'>0</tspan>)</text>
+<text x="73.028" y="114.506" text-anchor="middle">for (const auto separator :</text>
+<text x="73.028" y="119.172" text-anchor="middle">UTF8_SEPARATORS)</text>
+<text x="73.028" y="137.839" text-anchor="middle">if (text.starts_with(separator))</text>
+<text x="30.5" y="156.339" text-anchor="middle">return separator.size();</text>
+<text x="34.028" y="135.039" text-anchor="end">1</text>
+<text x="112.028" y="135.039" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="74.528" y="127.839" text-anchor="start">1</text>
+<text x="99.528" y="114.039" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="76.557" y="88.039" text-anchor="end">1</text>
+<text x="164.557" y="88.039" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="120.557" y="192.339" text-anchor="middle">А</text>
+</g>
+</svg>

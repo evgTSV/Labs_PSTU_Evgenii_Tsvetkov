@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="134.557mm" height="200mm" viewBox="0 0 134.557 200">
+<title>findMostDigits, лист 1 из 2</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="68.028" y="3" width="20" height="10" rx="5" ry="5"/>
+<polyline points="78.028,13 78.028,16.45"/>
+<polygon points="78.028,19 77.078,16 78.978,16" fill="#000" stroke="none"/>
+<rect x="55.528" y="19" width="45" height="15"/>
+<polyline points="78.028,34 78.028,37.45"/>
+<polygon points="78.028,40 77.078,37 78.978,37" fill="#000" stroke="none"/>
+<polygon points="53.528,40 102.528,40 105.528,47.5 102.528,55 53.528,55 50.528,47.5"/>
+<polygon points="61.028,61 95.028,61 98.028,68.5 95.028,76 61.028,76 58.028,68.5"/>
+<rect x="50.528" y="82" width="55" height="30"/>
+<polyline points="78.028,112 78.028,115.45"/>
+<polygon points="78.028,118 77.078,115 78.978,115" fill="#000" stroke="none"/>
+<polygon points="78.028,118 115.528,128 78.028,138 40.528,128"/>
+<rect x="13" y="144" width="45" height="15"/>
+<polyline points="40.528,128 35.5,128 35.5,141.45"/>
+<polygon points="35.5,144 34.55,141 36.45,141" fill="#000" stroke="none"/>
+<polyline points="35.5,159 35.5,165 78.028,165"/>
+<polyline points="115.528,128 120.557,128 120.557,165 78.028,165"/>
+<polyline points="78.028,76 78.028,79.45"/>
+<polygon points="78.028,82 77.078,79 78.978,79" fill="#000" stroke="none"/>
+<polyline points="78.028,165 78.028,171 8,171 8,68.5 55.478,68.5"/>
+<polygon points="58.028,68.5 55.028,69.45 55.028,67.55" fill="#000" stroke="none"/>
+<polyline points="98.028,68.5 125.557,68.5 125.557,174 78.028,174"/>
+<polyline points="78.028,55 78.028,58.45"/>
+<polygon points="78.028,61 77.078,58 78.978,58" fill="#000" stroke="none"/>
+<polyline points="78.028,174 78.028,180 3,180 3,47.5 47.978,47.5"/>
+<polygon points="50.528,47.5 47.528,48.45 47.528,46.55" fill="#000" stroke="none"/>
+<polyline points="105.528,47.5 131.557,47.5 131.557,183 78.028,183"/>
+<polyline points="78.028,183 78.028,186.45"/>
+<polygon points="78.028,189 77.078,186 78.978,186" fill="#000" stroke="none"/>
+<circle cx="78.028" cy="193" r="4"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="78.028" y="9.339" text-anchor="middle">Начало</text>
+<text x="76.228" y="17.339" text-anchor="end">{</text>
+<text x="78.028" y="25.506" text-anchor="middle">WordResult best;</text>
+<text x="78.028" y="30.172" text-anchor="middle">std::size_t number = <tspan font-family='Consolas'>0</tspan>;</text>
+<text x="78.028" y="46.506" text-anchor="middle">for (const std::string&amp; line :</text>
+<text x="78.028" y="51.172" text-anchor="middle">readLines(DESTINATION))</text>
+<text x="78.028" y="67.506" text-anchor="middle">for (const auto word</text>
+<text x="78.028" y="72.172" text-anchor="middle">: splitWords(line))</text>
+<text x="78.028" y="86.675" text-anchor="middle">++number;</text>
+<text x="78.028" y="91.341" text-anchor="middle">const auto digits =</text>
+<text x="78.028" y="96.006" text-anchor="middle">static_cast&lt;std::size_t&gt;(</text>
+<text x="78.028" y="100.672" text-anchor="middle">std::count_if(word.begin(),</text>
+<text x="78.028" y="105.337" text-anchor="middle">word.end(), [](char ch) { return</text>
+<text x="78.028" y="110.003" text-anchor="middle">ch &gt;= '<tspan font-family='Consolas'>0</tspan>' &amp;&amp; ch &lt;= '9'; }));</text>
+<text x="78.028" y="127.006" text-anchor="middle">if (best.number == <tspan font-family='Consolas'>0</tspan> ||</text>
+<text x="78.028" y="131.672" text-anchor="middle">digits &gt; best.digits)</text>
+<text x="35.5" y="150.506" text-anchor="middle">best = {number, digits,</text>
+<text x="35.5" y="155.172" text-anchor="middle">std::string(word)};</text>
+<text x="39.028" y="126.539" text-anchor="end">1</text>
+<text x="117.028" y="126.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="76.228" y="80.339" text-anchor="end">{</text>
+<text x="76.228" y="169.339" text-anchor="end">}</text>
+<text x="79.528" y="80.839" text-anchor="start">1</text>
+<text x="99.528" y="67.039" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="79.528" y="59.839" text-anchor="start">1</text>
+<text x="107.028" y="46.039" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="78.028" y="194.339" text-anchor="middle">А</text>
+</g>
+</svg>

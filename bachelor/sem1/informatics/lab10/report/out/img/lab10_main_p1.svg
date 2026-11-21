@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="143.557mm" height="194mm" viewBox="0 0 143.557 194">
+<title>main, лист 1 из 3</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="83.028" y="3" width="20" height="10" rx="5" ry="5"/>
+<polyline points="93.028,13 93.028,16.45"/>
+<polygon points="93.028,19 92.078,16 93.978,16" fill="#000" stroke="none"/>
+<polygon points="63.228,19 125.528,19 122.828,29 60.528,29"/>
+<polyline points="93.028,29 93.028,32.45"/>
+<polygon points="93.028,35 92.078,32 93.978,32" fill="#000" stroke="none"/>
+<rect x="83.028" y="35" width="20" height="10"/>
+<polyline points="93.028,45 93.028,48.45"/>
+<polygon points="93.028,51 92.078,48 93.978,48" fill="#000" stroke="none"/>
+<polygon points="93.028,51 135.528,68.5 93.028,86 50.528,68.5"/>
+<rect x="3" y="92" width="85" height="10" rx="5" ry="5"/>
+<polyline points="50.528,68.5 45.5,68.5 45.5,89.45"/>
+<polygon points="45.5,92 44.55,89 46.45,89" fill="#000" stroke="none"/>
+<polyline points="135.528,68.5 140.557,68.5 140.557,108 93.028,108"/>
+<polyline points="93.028,108 93.028,111.45"/>
+<polygon points="93.028,114 92.078,111 93.978,111" fill="#000" stroke="none"/>
+<polygon points="63.228,114 125.528,114 122.828,129 60.528,129"/>
+<polyline points="93.028,129 93.028,132.45"/>
+<polygon points="93.028,135 92.078,132 93.978,132" fill="#000" stroke="none"/>
+<rect x="60.528" y="135" width="65" height="10"/>
+<line x1="62.328" y1="135" x2="62.328" y2="145"/>
+<line x1="123.728" y1="135" x2="123.728" y2="145"/>
+<polyline points="93.028,145 93.028,148.45"/>
+<polygon points="93.028,151 92.078,148 93.978,148" fill="#000" stroke="none"/>
+<polygon points="63.228,151 125.528,151 122.828,161 60.528,161"/>
+<polyline points="93.028,161 93.028,164.45"/>
+<polygon points="93.028,167 92.078,164 93.978,164" fill="#000" stroke="none"/>
+<rect x="60.528" y="167" width="65" height="10"/>
+<line x1="62.328" y1="167" x2="62.328" y2="177"/>
+<line x1="123.728" y1="167" x2="123.728" y2="177"/>
+<polyline points="93.028,177 93.028,180.45"/>
+<polygon points="93.028,183 92.078,180 93.978,180" fill="#000" stroke="none"/>
+<circle cx="93.028" cy="187" r="4"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="93.028" y="9.339" text-anchor="middle">Начало</text>
+<text x="91.228" y="17.339" text-anchor="end">{</text>
+<text x="93.028" y="25.339" text-anchor="middle">std::cout &lt;&lt; &quot;Number of strings: &quot;;</text>
+<text x="93.028" y="41.339" text-anchor="middle">int count;</text>
+<text x="93.028" y="62.841" text-anchor="middle">if (!(std::cin &gt;&gt; count)</text>
+<text x="93.028" y="67.506" text-anchor="middle">|| count &lt; <tspan font-family='Consolas'>0</tspan> || count ==</text>
+<text x="93.028" y="72.172" text-anchor="middle">std::numeric_limits&lt;</text>
+<text x="93.028" y="76.837" text-anchor="middle">int&gt;::max())</text>
+<text x="45.5" y="98.339" text-anchor="middle">throw std::runtime_error(&quot;Invalid array length.&quot;);</text>
+<text x="49.028" y="67.039" text-anchor="end">1</text>
+<text x="137.028" y="67.039" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="93.028" y="120.506" text-anchor="middle">std::cin.ignore(std::numeric_limits&lt;</text>
+<text x="93.028" y="125.172" text-anchor="middle">std::streamsize&gt;::max(), '\n');</text>
+<text x="93.028" y="141.339" text-anchor="middle">auto array = createArray(count);</text>
+<text x="93.028" y="157.339" text-anchor="middle">std::cout &lt;&lt; &quot;\nOriginal array:\n&quot;;</text>
+<text x="93.028" y="173.339" text-anchor="middle">printArray(array.get(), count);</text>
+<text x="93.028" y="188.339" text-anchor="middle">А</text>
+</g>
+</svg>

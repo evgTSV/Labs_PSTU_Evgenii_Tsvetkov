@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="138.557mm" height="109mm" viewBox="0 0 138.557 109">
+<title>readStudent, лист 2 из 2</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<polygon points="88.028,17 130.528,34.5 88.028,52 45.528,34.5"/>
+<rect x="3" y="58" width="75" height="10" rx="5" ry="5"/>
+<polyline points="45.528,34.5 40.5,34.5 40.5,55.45"/>
+<polygon points="40.5,58 39.55,55 41.45,55" fill="#000" stroke="none"/>
+<polyline points="130.528,34.5 135.557,34.5 135.557,74 88.028,74"/>
+<polyline points="88.028,74 88.028,77.45"/>
+<polygon points="88.028,80 87.078,77 88.978,77" fill="#000" stroke="none"/>
+<rect x="73.028" y="80" width="30" height="10"/>
+<polyline points="88.028,90 88.028,93.45"/>
+<polygon points="88.028,96 87.078,93 88.978,93" fill="#000" stroke="none"/>
+<rect x="78.028" y="96" width="20" height="10" rx="5" ry="5"/>
+<circle cx="88.028" cy="7" r="4"/>
+<polyline points="88.028,11 88.028,14.45"/>
+<polygon points="88.028,17 87.078,14 88.978,14" fill="#000" stroke="none"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="88.028" y="31.173" text-anchor="middle">if (!(rating &gt;&gt; student.rating)</text>
+<text x="88.028" y="35.839" text-anchor="middle">|| !std::isfinite(student.rating)</text>
+<text x="88.028" y="40.504" text-anchor="middle">|| !(rating &gt;&gt; std::ws).eof())</text>
+<text x="40.5" y="64.339" text-anchor="middle">throw std::runtime_error(&quot;Invalid rating.&quot;);</text>
+<text x="44.028" y="33.039" text-anchor="end">1</text>
+<text x="132.028" y="33.039" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="88.028" y="86.339" text-anchor="middle">return student;</text>
+<text x="86.228" y="94.339" text-anchor="end">}</text>
+<text x="88.028" y="102.339" text-anchor="middle">Конец</text>
+<text x="88.028" y="8.339" text-anchor="middle">А</text>
+</g>
+</svg>

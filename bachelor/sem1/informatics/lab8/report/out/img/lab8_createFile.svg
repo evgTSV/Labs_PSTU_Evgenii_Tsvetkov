@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="81mm" height="126mm" viewBox="0 0 81 126">
+<title>createFile</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="30.5" y="3" width="20" height="10" rx="5" ry="5"/>
+<polyline points="40.5,13 40.5,16.45"/>
+<polygon points="40.5,19 39.55,16 41.45,16" fill="#000" stroke="none"/>
+<rect x="13" y="19" width="55" height="10"/>
+<polyline points="40.5,29 40.5,32.45"/>
+<polygon points="40.5,35 39.55,32 41.45,32" fill="#000" stroke="none"/>
+<polygon points="16,35 65,35 68,40 65,45 16,45 13,40"/>
+<polygon points="20.7,51 63,51 60.3,66 18,66"/>
+<polyline points="40.5,66 40.5,69.45"/>
+<polygon points="40.5,72 39.55,69 41.45,69" fill="#000" stroke="none"/>
+<rect x="8" y="72" width="65" height="10"/>
+<line x1="9.8" y1="72" x2="9.8" y2="82"/>
+<line x1="71.2" y1="72" x2="71.2" y2="82"/>
+<polyline points="40.5,45 40.5,48.45"/>
+<polygon points="40.5,51 39.55,48 41.45,48" fill="#000" stroke="none"/>
+<polyline points="40.5,82 40.5,88 3,88 3,40 10.45,40"/>
+<polygon points="13,40 10,40.95 10,39.05" fill="#000" stroke="none"/>
+<polyline points="68,40 78,40 78,91 40.5,91"/>
+<polyline points="40.5,91 40.5,94.45"/>
+<polygon points="40.5,97 39.55,94 41.45,94" fill="#000" stroke="none"/>
+<rect x="20.5" y="97" width="40" height="10"/>
+<line x1="22.3" y1="97" x2="22.3" y2="107"/>
+<line x1="58.7" y1="97" x2="58.7" y2="107"/>
+<polyline points="40.5,107 40.5,110.45"/>
+<polygon points="40.5,113 39.55,110 41.45,110" fill="#000" stroke="none"/>
+<rect x="30.5" y="113" width="20" height="10" rx="5" ry="5"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="40.5" y="9.339" text-anchor="middle">Начало</text>
+<text x="38.7" y="17.339" text-anchor="end">{</text>
+<text x="40.5" y="25.339" text-anchor="middle">std::vector&lt;Student&gt; students;</text>
+<text x="40.5" y="41.339" text-anchor="middle">for (int i = <tspan font-family='Consolas'>0</tspan>; i &lt; count; ++i)</text>
+<text x="40.5" y="57.506" text-anchor="middle">std::cout &lt;&lt; &quot;Student</text>
+<text x="40.5" y="62.172" text-anchor="middle">#&quot; &lt;&lt; i + 1 &lt;&lt; '\n';</text>
+<text x="40.5" y="78.339" text-anchor="middle">students.push_back(readStudent());</text>
+<text x="38.7" y="49.339" text-anchor="end">{</text>
+<text x="38.7" y="86.339" text-anchor="end">}</text>
+<text x="42" y="49.839" text-anchor="start">1</text>
+<text x="69.5" y="38.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="40.5" y="103.339" text-anchor="middle">writeFile(students);</text>
+<text x="38.7" y="111.339" text-anchor="end">}</text>
+<text x="40.5" y="119.339" text-anchor="middle">Конец</text>
+</g>
+</svg>

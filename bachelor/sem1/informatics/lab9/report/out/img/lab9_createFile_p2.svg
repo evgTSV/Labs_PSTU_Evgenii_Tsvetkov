@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="89.557mm" height="51mm" viewBox="0 0 89.557 51">
+<title>createFile, лист 2 из 2</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="38.028" y="17" width="35" height="15"/>
+<line x1="39.828" y1="17" x2="39.828" y2="32"/>
+<line x1="71.228" y1="17" x2="71.228" y2="32"/>
+<polyline points="55.528,32 55.528,35.45"/>
+<polygon points="55.528,38 54.578,35 56.478,35" fill="#000" stroke="none"/>
+<rect x="45.528" y="38" width="20" height="10" rx="5" ry="5"/>
+<circle cx="55.528" cy="7" r="4"/>
+<polyline points="55.528,11 55.528,14.45"/>
+<polygon points="55.528,17 54.578,14 56.478,14" fill="#000" stroke="none"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="55.528" y="23.506" text-anchor="middle">writeLines(</text>
+<text x="55.528" y="28.172" text-anchor="middle">SOURCE, lines);</text>
+<text x="53.728" y="36.339" text-anchor="end">}</text>
+<text x="55.528" y="44.339" text-anchor="middle">Конец</text>
+<text x="55.528" y="8.339" text-anchor="middle">А</text>
+</g>
+</svg>

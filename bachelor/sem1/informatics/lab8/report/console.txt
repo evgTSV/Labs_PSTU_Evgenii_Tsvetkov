@@ -1,0 +1,73 @@
+Number of students (at least 5): 6
+Student #1
+  Surname: Ivanov
+  Name: Ivan
+  Patronymic: Ivanovich
+  Birth date (YYYY-MM-DD): 2006-02-14
+  Home address: 1 Mira Street
+  Rating: 72.5
+Student #2
+  Surname: Petrov
+  Name: Petr
+  Patronymic: Sergeevich
+  Birth date (YYYY-MM-DD): 2005-01-30
+  Home address: 8 Lesnaya Street
+  Rating: 81
+Student #3
+  Surname: Sidorov
+  Name: Oleg
+  Patronymic: Pavlovich
+  Birth date (YYYY-MM-DD): 2006-02-14
+  Home address: 4 Parkovaya Street
+  Rating: 93
+Student #4
+  Surname: Smirnov
+  Name: Anton
+  Patronymic: Olegovich
+  Birth date (YYYY-MM-DD): 2004-04-17
+  Home address: 5 Sovetskaya Street
+  Rating: 77.25
+Student #5
+  Surname: Kozlov
+  Name: Denis
+  Patronymic: Petrovich
+  Birth date (YYYY-MM-DD): 2006-02-14
+  Home address: 12 Mira Street
+  Rating: 88
+Student #6
+  Surname: Volkov
+  Name: Maksim
+  Patronymic: Andreevich
+  Birth date (YYYY-MM-DD): 2005-07-08
+  Home address: 11 Shkolnaya Street
+  Rating: 85
+
+Initial file
+1. Ivanov Ivan Ivanovich | 2006-02-14 | 1 Mira Street | 72.5
+2. Petrov Petr Sergeevich | 2005-01-30 | 8 Lesnaya Street | 81
+3. Sidorov Oleg Pavlovich | 2006-02-14 | 4 Parkovaya Street | 93
+4. Smirnov Anton Olegovich | 2004-04-17 | 5 Sovetskaya Street | 77.25
+5. Kozlov Denis Petrovich | 2006-02-14 | 12 Mira Street | 88
+6. Volkov Maksim Andreevich | 2005-07-08 | 11 Shkolnaya Street | 85
+
+Removed records: 3
+
+After deletion
+1. Petrov Petr Sergeevich | 2005-01-30 | 8 Lesnaya Street | 81
+2. Smirnov Anton Olegovich | 2004-04-17 | 5 Sovetskaya Street | 77.25
+3. Volkov Maksim Andreevich | 2005-07-08 | 11 Shkolnaya Street | 85
+
+Insert before surname: Smirnov
+New student:
+  Surname: Orlov
+  Name: Ilya
+  Patronymic: Igorevich
+  Birth date (YYYY-MM-DD): 2006-10-20
+  Home address: 2 Lenina Street
+  Rating: 89.5
+
+Final file (students.dat)
+1. Petrov Petr Sergeevich | 2005-01-30 | 8 Lesnaya Street | 81
+2. Orlov Ilya Igorevich | 2006-10-20 | 2 Lenina Street | 89.5
+3. Smirnov Anton Olegovich | 2004-04-17 | 5 Sovetskaya Street | 77.25
+4. Volkov Maksim Andreevich | 2005-07-08 | 11 Shkolnaya Street | 85

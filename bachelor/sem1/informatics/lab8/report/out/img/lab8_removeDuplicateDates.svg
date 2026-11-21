@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128.557mm" height="179mm" viewBox="0 0 128.557 179">
+<title>removeDuplicateDates</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="68.028" y="3" width="20" height="10" rx="5" ry="5"/>
+<polyline points="78.028,13 78.028,16.45"/>
+<polygon points="78.028,19 77.078,16 78.978,16" fill="#000" stroke="none"/>
+<rect x="45.528" y="19" width="65" height="10"/>
+<line x1="47.328" y1="19" x2="47.328" y2="29"/>
+<line x1="108.728" y1="19" x2="108.728" y2="29"/>
+<polyline points="78.028,29 78.028,32.45"/>
+<polygon points="78.028,35 77.078,32 78.978,32" fill="#000" stroke="none"/>
+<rect x="45.528" y="35" width="65" height="10"/>
+<polyline points="78.028,45 78.028,48.45"/>
+<polygon points="78.028,51 77.078,48 78.978,48" fill="#000" stroke="none"/>
+<polygon points="61.028,51 95.028,51 98.028,58.5 95.028,66 61.028,66 58.028,58.5"/>
+<polygon points="78.028,72 115.528,82 78.028,92 40.528,82"/>
+<rect x="8" y="98" width="55" height="10"/>
+<polyline points="40.528,82 35.5,82 35.5,95.45"/>
+<polygon points="35.5,98 34.55,95 36.45,95" fill="#000" stroke="none"/>
+<polyline points="35.5,108 35.5,114 78.028,114"/>
+<polyline points="115.528,82 120.557,82 120.557,114 78.028,114"/>
+<polyline points="78.028,66 78.028,69.45"/>
+<polygon points="78.028,72 77.078,69 78.978,69" fill="#000" stroke="none"/>
+<polyline points="78.028,114 78.028,120 3,120 3,58.5 55.478,58.5"/>
+<polygon points="58.028,58.5 55.028,59.45 55.028,57.55" fill="#000" stroke="none"/>
+<polyline points="98.028,58.5 125.557,58.5 125.557,123 78.028,123"/>
+<polyline points="78.028,123 78.028,126.45"/>
+<polygon points="78.028,129 77.078,126 78.978,126" fill="#000" stroke="none"/>
+<rect x="55.528" y="129" width="45" height="10"/>
+<line x1="57.328" y1="129" x2="57.328" y2="139"/>
+<line x1="98.728" y1="129" x2="98.728" y2="139"/>
+<polyline points="78.028,139 78.028,142.45"/>
+<polygon points="78.028,145 77.078,142 78.978,142" fill="#000" stroke="none"/>
+<rect x="58.028" y="145" width="40" height="15"/>
+<polyline points="78.028,160 78.028,163.45"/>
+<polygon points="78.028,166 77.078,163 78.978,163" fill="#000" stroke="none"/>
+<rect x="68.028" y="166" width="20" height="10" rx="5" ry="5"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="78.028" y="9.339" text-anchor="middle">Начало</text>
+<text x="76.228" y="17.339" text-anchor="end">{</text>
+<text x="78.028" y="25.339" text-anchor="middle">const auto students = readFile();</text>
+<text x="78.028" y="41.339" text-anchor="middle">std::vector&lt;Student&gt; remaining;</text>
+<text x="78.028" y="57.506" text-anchor="middle">for (const Student&amp;</text>
+<text x="78.028" y="62.172" text-anchor="middle">student : students)</text>
+<text x="78.028" y="81.006" text-anchor="middle">if (!hasDuplicateDate(</text>
+<text x="78.028" y="85.672" text-anchor="middle">students, student))</text>
+<text x="35.5" y="104.339" text-anchor="middle">remaining.push_back(student);</text>
+<text x="39.028" y="80.539" text-anchor="end">1</text>
+<text x="117.028" y="80.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="79.528" y="70.839" text-anchor="start">1</text>
+<text x="99.528" y="57.039" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="78.028" y="135.339" text-anchor="middle">writeFile(remaining);</text>
+<text x="78.028" y="151.506" text-anchor="middle">return students.size() -</text>
+<text x="78.028" y="156.172" text-anchor="middle">remaining.size();</text>
+<text x="76.228" y="164.339" text-anchor="end">}</text>
+<text x="78.028" y="172.339" text-anchor="middle">Конец</text>
+</g>
+</svg>

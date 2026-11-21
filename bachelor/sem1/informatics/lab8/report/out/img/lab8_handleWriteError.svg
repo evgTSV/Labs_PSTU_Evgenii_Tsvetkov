@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="61mm" height="53mm" viewBox="0 0 61 53">
+<title>handleWriteError</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="20.5" y="3" width="20" height="10" rx="5" ry="5"/>
+<polyline points="30.5,13 30.5,16.45"/>
+<polygon points="30.5,19 29.55,16 31.45,16" fill="#000" stroke="none"/>
+<rect x="3" y="19" width="55" height="15"/>
+<polyline points="30.5,34 30.5,37.45"/>
+<polygon points="30.5,40 29.55,37 31.45,37" fill="#000" stroke="none"/>
+<rect x="23" y="40" width="15" height="10" rx="5" ry="5"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="30.5" y="9.339" text-anchor="middle">Начало</text>
+<text x="28.7" y="17.339" text-anchor="end">{</text>
+<text x="30.5" y="25.506" text-anchor="middle">file.reset();</text>
+<text x="30.5" y="30.172" text-anchor="middle">std::remove(TEMP_FILE);</text>
+<text x="30.5" y="46.339" text-anchor="middle">throw;</text>
+</g>
+</svg>

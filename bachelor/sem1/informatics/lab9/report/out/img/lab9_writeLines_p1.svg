@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64.528mm" height="191mm" viewBox="0 0 64.528 191">
+<title>writeLines, лист 1 из 2</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="30.528" y="3" width="20" height="10" rx="5" ry="5"/>
+<polyline points="40.528,13 40.528,16.45"/>
+<polygon points="40.528,19 39.578,16 41.478,16" fill="#000" stroke="none"/>
+<rect x="28.028" y="19" width="25" height="15"/>
+<polyline points="40.528,34 40.528,37.45"/>
+<polygon points="40.528,40 39.578,37 41.478,37" fill="#000" stroke="none"/>
+<polygon points="40.528,40 50.528,50 40.528,60 30.528,50"/>
+<rect x="3" y="66" width="45" height="25" rx="12.5" ry="12.5"/>
+<polyline points="30.528,50 25.5,50 25.5,63.45"/>
+<polygon points="25.5,66 24.55,63 26.45,63" fill="#000" stroke="none"/>
+<polyline points="50.528,50 55.557,50 55.557,97 40.528,97"/>
+<polyline points="40.528,97 40.528,100.45"/>
+<polygon points="40.528,103 39.578,100 41.478,100" fill="#000" stroke="none"/>
+<polygon points="28.528,103 52.528,103 55.528,113 52.528,123 28.528,123 25.528,113"/>
+<rect x="33.028" y="129" width="15" height="20"/>
+<polyline points="40.528,123 40.528,126.45"/>
+<polygon points="40.528,129 39.578,126 41.478,126" fill="#000" stroke="none"/>
+<polyline points="40.528,149 40.528,155 17.528,155 17.528,113 22.978,113"/>
+<polygon points="25.528,113 22.528,113.95 22.528,112.05" fill="#000" stroke="none"/>
+<polyline points="55.528,113 60.528,113 60.528,158 40.528,158"/>
+<polyline points="40.528,158 40.528,161.45"/>
+<polygon points="40.528,164 39.578,161 41.478,161" fill="#000" stroke="none"/>
+<rect x="28.028" y="164" width="25" height="10"/>
+<polyline points="40.528,174 40.528,177.45"/>
+<polygon points="40.528,180 39.578,177 41.478,177" fill="#000" stroke="none"/>
+<circle cx="40.528" cy="184" r="4"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="40.528" y="9.339" text-anchor="middle">Начало</text>
+<text x="38.728" y="17.339" text-anchor="end">{</text>
+<text x="40.528" y="25.506" text-anchor="middle">std::ofstream</text>
+<text x="40.528" y="30.172" text-anchor="middle">file(path);</text>
+<text x="40.528" y="51.339" text-anchor="middle">if (!file)</text>
+<text x="25.5" y="72.841" text-anchor="middle">throw</text>
+<text x="25.5" y="77.506" text-anchor="middle">std::runtime_error(</text>
+<text x="25.5" y="82.172" text-anchor="middle">std::string(&quot;Cannot</text>
+<text x="25.5" y="86.837" text-anchor="middle">write to: &quot;) + path);</text>
+<text x="29.028" y="48.539" text-anchor="end">1</text>
+<text x="52.028" y="48.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="40.528" y="109.673" text-anchor="middle">for (const</text>
+<text x="40.528" y="114.339" text-anchor="middle">std::string&amp;</text>
+<text x="40.528" y="119.004" text-anchor="middle">line : lines)</text>
+<text x="40.528" y="135.673" text-anchor="middle">file &lt;&lt;</text>
+<text x="40.528" y="140.339" text-anchor="middle">line &lt;&lt;</text>
+<text x="40.528" y="145.004" text-anchor="middle">'\n';</text>
+<text x="42.028" y="127.839" text-anchor="start">1</text>
+<text x="57.028" y="111.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="40.528" y="170.339" text-anchor="middle">file.close();</text>
+<text x="40.528" y="185.339" text-anchor="middle">А</text>
+</g>
+</svg>

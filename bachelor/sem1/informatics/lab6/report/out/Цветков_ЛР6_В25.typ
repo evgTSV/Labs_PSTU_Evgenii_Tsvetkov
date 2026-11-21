@@ -114,49 +114,49 @@
 #par[#"Блок-схемы алгоритмов, выполненные по ГОСТ 19.701-90 "#"[3]"#", приведены ниже. Функция "#emph("main")#" показана на рисунке "#"1"#", "#emph("setupConsole")#" – на рисунке "#"2"#", "#emph("isAllowed")#" – на рисунке "#"3"#", "#emph("isValid")#" – на рисунке "#"4"#", "#emph("func")#" – на рисунке "#"5"#". Схема функции "#emph("draw")#" разделена на три листа: рисунок "#"6"#", рисунок "#"7"#" и рисунок "#"8"#"."]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab6_main.png", width: 50%))
+#align(center, image("img/lab6_main.png", width: 41.65%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 1 – "#"Блок-схема алгоритма функции main"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab6_setupConsole.png", width: 36%))
+#align(center, image("img/lab6_setupConsole.png", width: 42.88%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 2 – "#"Блок-схема алгоритма функции setupConsole"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab6_isAllowed.png", width: 59%))
+#align(center, image("img/lab6_isAllowed.png", width: 72.80%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 3 – "#"Блок-схема алгоритма функции isAllowed"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab6_isValid.png", width: 46%))
+#align(center, image("img/lab6_isValid.png", width: 72.80%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 4 – "#"Блок-схема алгоритма функции isValid"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab6_func.png", width: 80%))
+#align(center, image("img/lab6_func.png", width: 93.50%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 5 – "#"Блок-схема алгоритма функции func"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab6_draw_p1.png", width: 57%))
+#align(center, image("img/lab6_draw_p1.png", width: 56.24%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 6 – "#"Блок-схема алгоритма функции draw (лист 1 из 3)"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab6_draw_p2.png", width: 57%))
+#align(center, image("img/lab6_draw_p2.png", width: 71.05%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 7 – "#"Блок-схема алгоритма функции draw (лист 2 из 3)"])
 ]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab6_draw_p3.png", width: 57%))
+#align(center, image("img/lab6_draw_p3.png", width: 59.76%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 8 – "#"Блок-схема алгоритма функции draw (лист 3 из 3)"])
 ]

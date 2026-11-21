@@ -120,7 +120,7 @@
 #par[#"Блок-схема алгоритма, выполненная по ГОСТ 19.701-90 "#"[2]"#", приведена на рисунке "#"1"#". Ввод исходных данных не требуется: все они заданы условием задачи."]
 
 #block(breakable: false, width: 100%, above: LEAD + LINE * 0.5, below: LEAD + LINE * 0.5)[
-#align(center, image("img/lab2_main.png", width: 54%))
+#align(center, image("img/lab2_main.png", width: 58.30%))
 #v(0.4em)
 #cap(align(center)[#"Рисунок 1 – "#"Блок-схема алгоритма функции main"])
 ]

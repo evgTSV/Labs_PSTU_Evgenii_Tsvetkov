@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="91.028mm" height="201mm" viewBox="0 0 91.028 201">
+<title>writeLines</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="40.528" y="3" width="20" height="10" rx="5" ry="5"/>
+<polyline points="50.528,13 50.528,16.45"/>
+<polygon points="50.528,19 49.578,16 51.478,16" fill="#000" stroke="none"/>
+<rect x="28.028" y="19" width="45" height="10"/>
+<polyline points="50.528,29 50.528,32.45"/>
+<polygon points="50.528,35 49.578,32 51.478,32" fill="#000" stroke="none"/>
+<polygon points="50.528,35 65.528,40 50.528,45 35.528,40"/>
+<rect x="3" y="51" width="55" height="20" rx="10" ry="10"/>
+<polyline points="35.528,40 30.5,40 30.5,48.45"/>
+<polygon points="30.5,51 29.55,48 31.45,48" fill="#000" stroke="none"/>
+<polyline points="65.528,40 70.557,40 70.557,77 50.528,77"/>
+<polyline points="50.528,77 50.528,80.45"/>
+<polygon points="50.528,83 49.578,80 51.478,80" fill="#000" stroke="none"/>
+<polygon points="21.028,83 80.028,83 83.028,88 80.028,93 21.028,93 18.028,88"/>
+<rect x="33.028" y="99" width="35" height="10"/>
+<polyline points="50.528,93 50.528,96.45"/>
+<polygon points="50.528,99 49.578,96 51.478,96" fill="#000" stroke="none"/>
+<polyline points="50.528,109 50.528,115 10.028,115 10.028,88 15.478,88"/>
+<polygon points="18.028,88 15.028,88.95 15.028,87.05" fill="#000" stroke="none"/>
+<polyline points="83.028,88 88.028,88 88.028,118 50.528,118"/>
+<polyline points="50.528,118 50.528,121.45"/>
+<polygon points="50.528,124 49.578,121 51.478,121" fill="#000" stroke="none"/>
+<rect x="38.028" y="124" width="25" height="10"/>
+<polyline points="50.528,134 50.528,137.45"/>
+<polygon points="50.528,140 49.578,137 51.478,137" fill="#000" stroke="none"/>
+<polygon points="50.528,140 65.528,145 50.528,150 35.528,145"/>
+<rect x="3" y="156" width="55" height="20" rx="10" ry="10"/>
+<polyline points="35.528,145 30.5,145 30.5,153.45"/>
+<polygon points="30.5,156 29.55,153 31.45,153" fill="#000" stroke="none"/>
+<polyline points="65.528,145 70.557,145 70.557,182 50.528,182"/>
+<polyline points="50.528,182 50.528,185.45"/>
+<polygon points="50.528,188 49.578,185 51.478,185" fill="#000" stroke="none"/>
+<rect x="40.528" y="188" width="20" height="10" rx="5" ry="5"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="50.528" y="9.339" text-anchor="middle">Начало</text>
+<text x="48.728" y="17.339" text-anchor="end">{</text>
+<text x="50.528" y="25.339" text-anchor="middle">std::ofstream file(path);</text>
+<text x="50.528" y="41.339" text-anchor="middle">if (!file)</text>
+<text x="30.5" y="57.673" text-anchor="middle">throw std::runtime_error(</text>
+<text x="30.5" y="62.339" text-anchor="middle">std::string(&quot;Cannot write to:</text>
+<text x="30.5" y="67.004" text-anchor="middle">&quot;) + path);</text>
+<text x="34.028" y="38.539" text-anchor="end">1</text>
+<text x="67.028" y="38.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="50.528" y="89.339" text-anchor="middle">for (const std::string&amp; line : lines)</text>
+<text x="50.528" y="105.339" text-anchor="middle">file &lt;&lt; line &lt;&lt; '\n';</text>
+<text x="52.028" y="97.839" text-anchor="start">1</text>
+<text x="84.528" y="86.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="50.528" y="130.339" text-anchor="middle">file.close();</text>
+<text x="50.528" y="146.339" text-anchor="middle">if (!file)</text>
+<text x="30.5" y="162.673" text-anchor="middle">throw std::runtime_error(</text>
+<text x="30.5" y="167.339" text-anchor="middle">std::string(&quot;Cannot write: &quot;)</text>
+<text x="30.5" y="172.004" text-anchor="middle">+ path);</text>
+<text x="34.028" y="143.539" text-anchor="end">1</text>
+<text x="67.028" y="143.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="48.728" y="186.339" text-anchor="end">}</text>
+<text x="50.528" y="194.339" text-anchor="middle">Конец</text>
+</g>
+</svg>
