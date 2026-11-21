@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="124.557mm" height="195mm" viewBox="0 0 124.557 195">
+<title>selectionSort</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="58.028" y="3" width="20" height="10" rx="5" ry="5"/>
+<polyline points="68.028,13 68.028,16.45"/>
+<polygon points="68.028,19 67.078,16 68.978,16" fill="#000" stroke="none"/>
+<rect x="50.528" y="19" width="35" height="15"/>
+<polyline points="68.028,34 68.028,37.45"/>
+<polygon points="68.028,40 67.078,37 68.978,37" fill="#000" stroke="none"/>
+<polygon points="46.028,40 90.028,40 93.028,45 90.028,50 46.028,50 43.028,45"/>
+<rect x="53.028" y="56" width="30" height="10"/>
+<polyline points="68.028,66 68.028,69.45"/>
+<polygon points="68.028,72 67.078,69 68.978,69" fill="#000" stroke="none"/>
+<polygon points="46.028,72 90.028,72 93.028,77 90.028,82 46.028,82 43.028,77"/>
+<polygon points="68.028,88 105.528,93 68.028,98 30.528,93"/>
+<rect x="13" y="104" width="25" height="10"/>
+<polyline points="30.528,93 25.5,93 25.5,101.45"/>
+<polygon points="25.5,104 24.55,101 26.45,101" fill="#000" stroke="none"/>
+<polyline points="25.5,114 25.5,120 68.028,120"/>
+<polyline points="105.528,93 110.557,93 110.557,120 68.028,120"/>
+<polyline points="68.028,82 68.028,85.45"/>
+<polygon points="68.028,88 67.078,85 68.978,85" fill="#000" stroke="none"/>
+<polyline points="68.028,120 68.028,126 8,126 8,77 40.478,77"/>
+<polygon points="43.028,77 40.028,77.95 40.028,76.05" fill="#000" stroke="none"/>
+<polyline points="93.028,77 115.557,77 115.557,129 68.028,129"/>
+<polyline points="68.028,129 68.028,132.45"/>
+<polygon points="68.028,135 67.078,132 68.978,132" fill="#000" stroke="none"/>
+<polygon points="68.028,135 95.528,140 68.028,145 40.528,140"/>
+<rect x="8" y="151" width="55" height="10"/>
+<polyline points="40.528,140 35.5,140 35.5,148.45"/>
+<polygon points="35.5,151 34.55,148 36.45,148" fill="#000" stroke="none"/>
+<polyline points="35.5,161 35.5,167 68.028,167"/>
+<polyline points="95.528,140 100.557,140 100.557,167 68.028,167"/>
+<polyline points="68.028,50 68.028,53.45"/>
+<polygon points="68.028,56 67.078,53 68.978,53" fill="#000" stroke="none"/>
+<polyline points="68.028,167 68.028,173 3,173 3,45 40.478,45"/>
+<polygon points="43.028,45 40.028,45.95 40.028,44.05" fill="#000" stroke="none"/>
+<polyline points="93.028,45 121.557,45 121.557,176 68.028,176"/>
+<polyline points="68.028,176 68.028,179.45"/>
+<polygon points="68.028,182 67.078,179 68.978,179" fill="#000" stroke="none"/>
+<rect x="58.028" y="182" width="20" height="10" rx="5" ry="5"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="68.028" y="9.339" text-anchor="middle">Начало</text>
+<text x="68.028" y="25.506" text-anchor="middle">int n = static_cast&lt;</text>
+<text x="68.028" y="30.172" text-anchor="middle">int&gt;(a.size());</text>
+<text x="68.028" y="46.339" text-anchor="middle">for (int i = <tspan font-family='Consolas'>0</tspan>; i &lt; n - 1; ++i)</text>
+<text x="68.028" y="62.339" text-anchor="middle">int smallest = i;</text>
+<text x="68.028" y="78.339" text-anchor="middle">for (int j = i + 1; j &lt; n; ++j)</text>
+<text x="68.028" y="94.339" text-anchor="middle">if (a[j] &lt; a[smallest])</text>
+<text x="25.5" y="110.339" text-anchor="middle">smallest = j;</text>
+<text x="29.028" y="91.539" text-anchor="end">1</text>
+<text x="107.028" y="91.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="69.528" y="86.839" text-anchor="start">1</text>
+<text x="94.528" y="75.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="68.028" y="141.339" text-anchor="middle">if (smallest != i)</text>
+<text x="35.5" y="157.339" text-anchor="middle">std::swap(a[i], a[smallest]);</text>
+<text x="39.028" y="138.539" text-anchor="end">1</text>
+<text x="97.028" y="138.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="69.528" y="54.839" text-anchor="start">1</text>
+<text x="94.528" y="43.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="68.028" y="188.339" text-anchor="middle">Конец</text>
+</g>
+</svg>

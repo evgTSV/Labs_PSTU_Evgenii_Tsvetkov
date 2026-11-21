@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="81mm" height="185mm" viewBox="0 0 81 185">
+<title>solve</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="30.5" y="3" width="20" height="10" rx="5" ry="5"/>
+<polyline points="40.5,13 40.5,16.45"/>
+<polygon points="40.5,19 39.55,16 41.45,16" fill="#000" stroke="none"/>
+<polygon points="40.5,19 58,24 40.5,29 23,24"/>
+<rect x="10.472" y="35" width="15" height="10" rx="5" ry="5"/>
+<polyline points="23,24 17.972,24 17.972,32.45"/>
+<polygon points="17.972,35 17.022,32 18.922,32" fill="#000" stroke="none"/>
+<polyline points="58,24 63.028,24 63.028,51 40.5,51"/>
+<polyline points="40.5,51 40.5,54.45"/>
+<polygon points="40.5,57 39.55,54 41.45,54" fill="#000" stroke="none"/>
+<rect x="13" y="57" width="55" height="15"/>
+<line x1="14.8" y1="57" x2="14.8" y2="72"/>
+<line x1="66.2" y1="57" x2="66.2" y2="72"/>
+<polyline points="40.5,72 40.5,75.45"/>
+<polygon points="40.5,78 39.55,75 41.45,75" fill="#000" stroke="none"/>
+<rect x="13" y="78" width="55" height="25"/>
+<polyline points="40.5,103 40.5,106.45"/>
+<polygon points="40.5,109 39.55,106 41.45,106" fill="#000" stroke="none"/>
+<polygon points="5.7,109 78,109 75.3,129 3,129"/>
+<polyline points="40.5,129 40.5,132.45"/>
+<polygon points="40.5,135 39.55,132 41.45,132" fill="#000" stroke="none"/>
+<rect x="18" y="135" width="45" height="10"/>
+<line x1="19.8" y1="135" x2="19.8" y2="145"/>
+<line x1="61.2" y1="135" x2="61.2" y2="145"/>
+<polyline points="40.5,145 40.5,148.45"/>
+<polygon points="40.5,151 39.55,148 41.45,148" fill="#000" stroke="none"/>
+<rect x="13" y="151" width="55" height="15"/>
+<line x1="14.8" y1="151" x2="14.8" y2="166"/>
+<line x1="66.2" y1="151" x2="66.2" y2="166"/>
+<polyline points="40.5,166 40.5,169.45"/>
+<polygon points="40.5,172 39.55,169 41.45,169" fill="#000" stroke="none"/>
+<rect x="30.5" y="172" width="20" height="10" rx="5" ry="5"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="40.5" y="9.339" text-anchor="middle">Начало</text>
+<text x="40.5" y="25.339" text-anchor="middle">if (n == <tspan font-family='Consolas'>0</tspan>)</text>
+<text x="17.972" y="41.339" text-anchor="middle">return;</text>
+<text x="21.5" y="22.539" text-anchor="end">1</text>
+<text x="59.5" y="22.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="40.5" y="63.506" text-anchor="middle">solve(n - 1, from, spare, to,</text>
+<text x="40.5" y="68.172" text-anchor="middle">towers, height, step);</text>
+<text x="40.5" y="84.841" text-anchor="middle">int disk = towers[from].back();</text>
+<text x="40.5" y="89.506" text-anchor="middle">towers[from].pop_back();</text>
+<text x="40.5" y="94.172" text-anchor="middle">towers[to].push_back(disk);</text>
+<text x="40.5" y="98.837" text-anchor="middle">++step;</text>
+<text x="40.5" y="115.673" text-anchor="middle">std::cout &lt;&lt; &quot;Move &quot; &lt;&lt; step &lt;&lt; &quot;: disk &quot;</text>
+<text x="40.5" y="120.339" text-anchor="middle">&lt;&lt; disk &lt;&lt; &quot;, &quot; &lt;&lt; &quot;ABC&quot;[from] &lt;&lt; &quot; -&gt; &quot;</text>
+<text x="40.5" y="125.004" text-anchor="middle">&lt;&lt; &quot;ABC&quot;[to] &lt;&lt; '\n';</text>
+<text x="40.5" y="141.339" text-anchor="middle">draw(towers, height);</text>
+<text x="40.5" y="157.506" text-anchor="middle">solve(n - 1, spare, to, from,</text>
+<text x="40.5" y="162.172" text-anchor="middle">towers, height, step);</text>
+<text x="40.5" y="178.339" text-anchor="middle">Конец</text>
+</g>
+</svg>

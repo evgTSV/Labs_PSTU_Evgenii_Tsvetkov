@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="104mm" height="145mm" viewBox="0 0 104 145">
+<title>insertionSort</title>
+<g fill="none" stroke="#000" stroke-width="0.4" stroke-linejoin="miter" stroke-linecap="butt">
+<rect x="43.5" y="3" width="20" height="10" rx="5" ry="5"/>
+<polyline points="53.5,13 53.5,16.45"/>
+<polygon points="53.5,19 52.55,16 54.45,16" fill="#000" stroke="none"/>
+<polygon points="14,19 93,19 96,24 93,29 14,29 11,24"/>
+<rect x="38.5" y="35" width="30" height="15"/>
+<polyline points="53.5,50 53.5,53.45"/>
+<polygon points="53.5,56 52.55,53 54.45,53" fill="#000" stroke="none"/>
+<polygon points="39,56 68,56 71,63.5 68,71 39,71 36,63.5"/>
+<rect x="38.5" y="77" width="30" height="15"/>
+<polyline points="53.5,71 53.5,74.45"/>
+<polygon points="53.5,77 52.55,74 54.45,74" fill="#000" stroke="none"/>
+<polyline points="53.5,92 53.5,98 28,98 28,63.5 33.45,63.5"/>
+<polygon points="36,63.5 33,64.45 33,62.55" fill="#000" stroke="none"/>
+<polyline points="71,63.5 76,63.5 76,101 53.5,101"/>
+<polyline points="53.5,101 53.5,104.45"/>
+<polygon points="53.5,107 52.55,104 54.45,104" fill="#000" stroke="none"/>
+<rect x="43.5" y="107" width="20" height="10"/>
+<polyline points="53.5,29 53.5,32.45"/>
+<polygon points="53.5,35 52.55,32 54.45,32" fill="#000" stroke="none"/>
+<polyline points="53.5,117 53.5,123 3,123 3,24 8.45,24"/>
+<polygon points="11,24 8,24.95 8,23.05" fill="#000" stroke="none"/>
+<polyline points="96,24 101,24 101,126 53.5,126"/>
+<polyline points="53.5,126 53.5,129.45"/>
+<polygon points="53.5,132 52.55,129 54.45,129" fill="#000" stroke="none"/>
+<rect x="43.5" y="132" width="20" height="10" rx="5" ry="5"/>
+</g>
+<g fill="#000" stroke="none" font-family="'Times New Roman', 'Liberation Serif', 'Times New Roman', Times, serif" font-size="4.057">
+<text x="53.5" y="9.339" text-anchor="middle">Начало</text>
+<text x="53.5" y="25.339" text-anchor="middle">for (int i = 1; i &lt; static_cast&lt;int&gt;(a.size()); ++i)</text>
+<text x="53.5" y="41.506" text-anchor="middle">int key = a[i];</text>
+<text x="53.5" y="46.172" text-anchor="middle">int j = i;</text>
+<text x="53.5" y="62.506" text-anchor="middle">while (j &gt; <tspan font-family='Consolas'>0</tspan> &amp;&amp;</text>
+<text x="53.5" y="67.172" text-anchor="middle">a[j - 1] &gt; key)</text>
+<text x="53.5" y="83.506" text-anchor="middle">a[j] = a[j - 1];</text>
+<text x="53.5" y="88.172" text-anchor="middle">--j;</text>
+<text x="55" y="75.839" text-anchor="start">1</text>
+<text x="72.5" y="62.039" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="53.5" y="113.339" text-anchor="middle">a[j] = key;</text>
+<text x="55" y="33.839" text-anchor="start">1</text>
+<text x="97.5" y="22.539" text-anchor="start"><tspan font-family='Consolas'>0</tspan></text>
+<text x="53.5" y="138.339" text-anchor="middle">Конец</text>
+</g>
+</svg>
